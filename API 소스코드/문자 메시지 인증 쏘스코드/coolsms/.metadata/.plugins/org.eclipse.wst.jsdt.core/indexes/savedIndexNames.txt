@@ -1,0 +1,3 @@
+INDEX VERSION 1.4+C:\Users\harry\OneDrive\바탕 화면\SpringData\쏘스코드\문자 메시지 인증 쏘스코드\coolsms\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2312886064.index
+4017589347.index

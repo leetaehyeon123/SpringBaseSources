@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\Users\harry\OneDrive\바탕 화면\SpringData\쏘스코드\유튜브 동영상 넣기 쏘스코드\videos\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+463252237.index
+2961710048.index
+3782318380.index
+3027069865.index
+3372790872.index
+3582469555.index
+3156685161.index

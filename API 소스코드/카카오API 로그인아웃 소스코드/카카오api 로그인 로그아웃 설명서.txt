@@ -1,0 +1,97 @@
+-로그인 로그아웃 카카오api 이용하기-
+기본설명 : 
+	우리가 정해진 URL을 통해 요구하는 데이터를 담아 카카오api서버로 보내면
+	우리가 정한 Redirect URI 에게 처리된 데이터를 보내준다.
+
+----kakao developers 페이지----
+1.kakao developers 페이지에 접속한다.
+2.가입,등록 후 애플리케이션을 등록한다.
+3.애플리케션을 눌러보면 앱설정 카테고리가 보일것이다.우리는 거기서 앱키와 플랫폼을 볼것이다.
+4.먼저 앱키에 들어간다.거기서 본인 플레폼에 맞는 앱키를 복사한다. REST API키 : 자바 클래스에서 사용 가능. 이 키값이 나중에 client_id가 될것이다.
+5.플랫폼에 들어간다. 사이트 도메인 을 입력한다. ex)http://localhost:7984
+	이렇게 입력하면 http://localhost:7984 를 앞에써서 열리는 페이지들은 api를 사용할 권한을 가지게된다.
+6.제품설정 카테고리에 카카오로그인 이 보일것이다.
+7.카카오로그인을 누른다. 활성상태가 off라면 on으로 켜준다. 그리고 그 밑에 Redirect URI 와 Logout Redirect URI 가 보인다.
+8.우리는 이두가지를 설정할 것이다.
+9.Redirect URI에 로그인시 돌려받을 내 프로젝트 URL을 써주면된다. ex)http://localhost:7984/kakao/page2.do
+	필자의 로그인시 이동할 페이지는 page2.jsp 이고 매핑 주소가 /page2.do 이다.
+	컨트롤러 매핑 구현부:
+	@RequestMapping(value = "/page2.do", produces = "application/json", method = { RequestMethod.GET, RequestMethod.POST })
+	public String kakaoLogin(@RequestParam("code") String code,Model model) throws Exception { return "page2"}
+	우리가 값을 받을때 /page2.do 로 매핑해돌것이고 저기 String code 파라미터로 결과가 날라올것이다.
+10.Logout Redirect URI 에도 동일하게 로그아웃시 돌려받을 내 프로젝트 URL을 써주면 된다. ex)http://localhost:7984/kakao/logout
+11.이제 카카오로그인 카테고리 밑에단 동의항목을 클릭한다. 여러 동의항목이 보일것이다.
+12.동의 항목을 추가하면 로그인할때 동의창이 뜬다. 사용자가 동의 하면 거기에 대한 정보를 가져다 쓸 수 있다. 동의 설정을 하지 않는다면 그 정보를 가져다 쓸 수 없다.(필자는 이 설정을 몰라 사용자 정보가 안가져와져서 한참 찾았음;;)
+13.위 베너에 있는 제품을 누른다. 카카오 로그인을 클릭한다. 스크롤을 밑으로 내려보면 문서보기가 있다. 클릭한다. 이제 여기서 카카오서버에서 요구하는 값과 리턴해주는 값을 볼 수 있다. 사용 설명서 이다.
+14.필자는 REST API를 사용했으므로 각 카테고리마다 REST API를 눌러 사용법을 확인할 것이다.
+15.사용법은 사용자 토큰 받기(카테고리에 있음)를 예로 들겠다. 페이지에 써있는 내용을 처음보면 이게 어떤걸 뜻하는지 알기 어렵다. 어떤걸 뜻하는지 한번 이해해보자.
+	사용법:
+	-URL-
+	POST /oauth/token HTTP/1.1
+	Host: kauth.kakao.com
+	Content-type: application/x-www-form-urlencoded;charset=utf-8	
+		설명 : POST 방식으로 접근할것이며 접근 URL은 https://kauth.kakao.com/oauth/token 가된다. content-type은 헤더부분에 넣어줘야하는데 application/x-www-form-urlencoded;charset=utf-8이 그냥 기본적으로 이거로 되는거 같다. 따로 작성 안해줘도 된다.
+
+	-Parameter-
+	Name		Type	Description				Required
+	grant_type	String	"authorization_code"로 고정			O
+	client_id		String	앱 생성 시 발급 받은 REST API		O
+	redirect_uri	String	인증 코드가 리다이렉트된 URI		O
+	code		String	인증 코드 받기 요청으로 얻은 인증 코드	O
+		설명 : 이 파라미터는 카카오서버 kauth.kakao.com/oauth/token 여기에서 우리에게 요구하는 데이터 값이다. 저기있는 client_id가 바로 아까 복사했던 REST API 앱키 이다.
+		POST방식 임으로 우리는 이 값들을 접근할때 바디부분에 넣어서 kauth.kakao.com/oauth/token에 전달해주면 된다.
+
+	-Sample-
+	어떤 값들을 넣어주면 이런 값들을 보내주겠다 라고 예시가 써있다.
+	우리가 받을 값이 어떤 구조로 생겼는지 확인할 수 있다.
+
+16.사용법 하나 더 추가한다. 이번에는 상용자관리에서 사용자정보요청 부분을 예로 들겠다.
+	-URL:Access Token-        
+	GET/POST /v2/user/me HTTP/1.1
+	Host: kapi.kakao.com
+	Authorization: Bearer {access_token}
+	Content-type: application/x-www-form-urlencoded;charset=utf-8
+		설명 : GET 방식과 POST 모두 접근 가능 하다.
+		URL은 https://kapi.kakao.com/v2/user/me 가 되고 헤더로 Authorization을 넣어 줘야한다. 그 값으로는 Bearer {access_token}을 넣어줘야한다. 
+		{access_token} 부분은 위에 예시했던 토큰 받기를 통해 받아온 토큰 문자가 들어갈 자리이다.  ex) Authorization= Bearer 3425idsg3l452il34fdsg43i24jkdf 
+		Content-type은 또 안넣어줘도 되더라.
+
+	-Additional Parameter-
+	Key		Type		Description
+	secure_resource	Boolean		이미지 URL 값 HTTPS 여부, true 설정 시 HTTPS 사용, 기본 값 false
+	property_keys	JSON Array	Property 키 목록, JSON Array를 ["properties.nickname"]과 같은 형식으로 사용
+		설명 : 추가적으로 정보을 요구할 수 있는 써도되고 안써도 되는 파라미터이다.
+		POST방식이면 바디에 넣어서 보내면된다. GET방식이면 아마 파라미터에 넣어서 보내면 될것이다. 안해봐서 모르겠다. 그냥 이런기능도 있다 정도.
+
+	-Sample-
+	어떤 값들을 넣어주면 이런 값들을 보내주겠다 라고 예시가 써있다.
+	우리가 받을 값이 어떤 구조로 생겼는지 확인할 수 있다.
+
+17.이제 제품 문서에 대한 이해를 어느정도 했다면 코드를 작성해 보자. 코드설명은 주석을 통해 하겠음.
+
+
+----Spring 시작전..----
+pom.xml에
+		<!-- json통신  -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.9.4</version>
+		</dependency>
+을 추가한다. 
+위 라이브러리를 선택한 이유: 사용하기 매우 간단함. 이것저것 방법이 많았는데 필자는 이게 가장 사용하기 편했음.
+
+com.fasterxml.jackson.core 라이브러리에서 사용할 클래스:
+1 . JsonNode		json을 담을거임		
+2 . ObjectMapper		우리가 받는 데이터를 JsonNode에 담을때 사용
+	ObjectMapper mapper = new ObjectMapper();//객체생성후
+            JsonNode returnNode = mapper.readTree(conn.getInputStream());//readTree()메서드 를 통해 받아온 스트림을 읽음
+
+	readTree()의 파라미터로 InputStream 타임이 담긴다. 
+	쉽게 말해 페이지로 부터 받아온 인풋스트림을 ObjectMapper를 사용해 JsonNode에 json형태로 담을 것이다.
+
+
+
+
+
+	

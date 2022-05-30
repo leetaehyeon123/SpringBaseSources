@@ -1,0 +1,5 @@
+package com.th.mailSender;
+
+public class MailSender {
+
+}

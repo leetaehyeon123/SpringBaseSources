@@ -1,0 +1,26 @@
+package com.th.coolsms;
+
+import java.util.HashMap;
+
+import net.nurigo.java_sdk.Coolsms;
+
+public class Cool extends Coolsms{
+
+	String apiKey = "NCSKIHYZ2UHQRCBN";
+	String apiSecret = "B1BGGBULSY4IGFECPE44S3LJY4RDAEI3";
+		
+	public Cool(String apiKey, String apiSecret) {
+		super(apiKey, apiSecret);
+		// TODO Auto-generated constructor stub
+	}
+	
+	public void send(HashMap<String,String> map) {
+		String to=map.get("to");
+		String from=map.get("from");
+		String type=map.get("type");
+		String text=map.get("text");
+		
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+127.0.0.1 - - [09/Sep/2020:20:22:34 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [09/Sep/2020:20:22:35 +0900] "GET /kgn/ HTTP/1.1" 200 283
+0:0:0:0:0:0:0:1 - - [09/Sep/2020:20:22:35 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [09/Sep/2020:20:22:40 +0900] "GET /kgn/login HTTP/1.1" 200 1554
+0:0:0:0:0:0:0:1 - - [09/Sep/2020:20:22:46 +0900] "GET /kgn/kakaoLog.do?code=owZatgdPtlLqy7nSR4KOWl0GiWlioXN4r-EGp2zo34B_I59MEGaNaNir1VqCtf_e--yggQopyV4AAAF0cpqPyA HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [09/Sep/2020:20:22:47 +0900] "GET /kgn/login.do?platform=kakao&code=owZatgdPtlLqy7nSR4KOWl0GiWlioXN4r-EGp2zo34B_I59MEGaNaNir1VqCtf_e--yggQopyV4AAAF0cpqPyA HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [09/Sep/2020:20:22:47 +0900] "GET /kgn/main HTTP/1.1" 200 416
+0:0:0:0:0:0:0:1 - - [09/Sep/2020:20:22:48 +0900] "GET /kgn/logout.do HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [09/Sep/2020:20:22:48 +0900] "GET /kgn/home HTTP/1.1" 200 283

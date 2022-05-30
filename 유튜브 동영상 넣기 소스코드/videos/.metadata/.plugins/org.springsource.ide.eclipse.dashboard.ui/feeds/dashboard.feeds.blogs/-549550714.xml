@@ -1,0 +1,1846 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Spring</title>
+  <link rel="alternate" href="https://spring.io/blog" />
+  <link rel="self" href="https://spring.io/blog.atom" />
+  <id>http://spring.io/blog.atom</id>
+  <icon>https://spring.io/favicon.ico</icon>
+  <updated>2020-09-09T12:00:00Z</updated>
+  <entry>
+    <title>Azure in the Enterprise: Azure Service Bus and Spring Boot</title>
+    <link rel="alternate" href="https://spring.io/blog/2020/09/09/azure-in-the-enterprise-azure-service-bus-and-spring-boot" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2020-09-02:4187</id>
+    <updated>2020-09-09T12:00:00Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans! I was on the Microsoft Azure YouTube show &lt;em&gt;Azure in the Enterprise&lt;/em&gt; with Lyle Dodge where I did a quick demonstration introducing the Spring for Microsoft Azure support for the Azure Service Bus. Check it out!&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/3zoDqgjjT6E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>This Week in Spring - September 8th, 2020</title>
+    <link rel="alternate" href="https://spring.io/blog/2020/09/09/this-week-in-spring-september-8th-2020" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2020-09-09:4192</id>
+    <updated>2020-09-09T02:20:38Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans! &lt;/p&gt;
+&lt;p&gt;Last week was SpringOne. It was absolutely bonkers. The videos are coming sooner rather than later. In the meantime, some of them are already up on the &lt;a href="http://spring.io/video"&gt;Spring YouTube channel&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Also, I announced that my new book &lt;a href="http://ReactiveSpring.io"&gt;&lt;em&gt;Reactive Spring&lt;/em&gt;&lt;/a&gt; is now available for sale! I&amp;rsquo;m &lt;a href="https://twitter.com/starbuxman/status/1303435484929040385"&gt;proofing the printed version&lt;/a&gt; as we speak :-) Meanwhile, you can pre-order the Kindle version or - preferably! - get the digital version over on &lt;a href="http://leanpub.com/reactive-spring-book"&gt;Leanpub&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Did I mention that last week was SpringOne? Seriously. There&amp;rsquo;s no way I can hope to cover all that happened. But I do hope you&amp;rsquo;ll listen to the latest installment of my podcast - first link in the following roundup - and I hope you&amp;rsquo;ll read the Azure SpringCloud blog below that I wrote, alongside our partners from Microsoft.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/09/04/a-bootiful-podcast-springone-2020-josh-s-book-reactive-spring-and-microsoft-java-architect-and-fellow-java-champion-jonathan-giles"&gt;A Bootiful Podcast: SpringOne 2020, Josh&amp;rsquo;s book &amp;ldquo;Reactive Spring,&amp;rdquo; and Microsoft Java Architect and fellow Java Champion Jonathan Giles&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://tanzu.vmware.com/content/blog/announcing-the-general-availability-of-azure-spring-cloud"&gt;Announcing the General Availability of Azure Spring Cloud&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://azure.microsoft.com/en-gb/blog/azure-spring-cloud-a-fully-managed-service-for-spring-boot-apps-is-now-generally-available/"&gt;Azure Spring Cloud: a fully managed service for Spring Boot apps is now generally available | Azure blog and updates | Microsoft Azure&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/09/07/azure-in-the-enterprise-azure-sql-database-access-and-spring-boot"&gt;Azure in the Enterprise: Azure SQL Database Access and Spring Boot&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/09/02/hello-azure-spring-cloud"&gt;Hello, Azure Spring Cloud&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=RG6UqPJdqIs&amp;feature=youtu.be"&gt;How to leverage the Spring framework with Azure SQL Database - YouTube&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=IWQboyBohEI&amp;feature=youtu.be"&gt;How to use Spring and Initializr with Maven and Azure Cosmos DB - YouTube&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=3zoDqgjjT6E&amp;feature=youtu.be"&gt;How to use the Spring framework to access Azure Service Bus - YouTube&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=d4SfosPWz8s&amp;feature=youtu.be"&gt;How to use the Spring framework to access Azure Storage - YouTube&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/jonashackt/status/1301163317537525760?s=21"&gt;Jonas Hecht on Twitter: &amp;quot;FINALLY (while attending #springone &#x1f60d;) I got my hands on the 09.2020 release of the @JavaMagazin &#x1f929;&#x1f929; containing my article abt @springboot &amp;amp; @graalvm beeing featured as part of the @springframework #coverstory &#x1f648;&#x1f973;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://searchapparchitecture.techtarget.com/news/252488508/Microsoft-VMware-make-Azure-Spring-Cloud-GA?amp=1&amp;__twitter_impression=true"&gt;Microsoft, VMware make Azure Spring Cloud GA&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/09/03/spring-tools-4-7-2-released"&gt;Spring Tools 4.7.2 released&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.linkedin.com/pulse/super-charge-your-spring-boot-apps-azure-cloud-kylie-liang"&gt;Super Charge Your Spring Boot Apps with Azure Spring Cloud&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://tanzu.vmware.com/content/blog/the-state-of-spring-2020-report-is-now-available-learn-how-your-java-development-compares"&gt;The State of Spring 2020 Report Is Now Available?Learn How Your Java Development Compares&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;This is pretty crazy: the JDK has officialyl moved to Github! &lt;a href="https://inside.java/2020/09/05/skara-transition-done/"&gt;jdk/jdk repository transition to Git, GitHub and Skara is done&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>Azure in the Enterprise: Azure SQL Database Access and Spring Boot</title>
+    <link rel="alternate" href="https://spring.io/blog/2020/09/07/azure-in-the-enterprise-azure-sql-database-access-and-spring-boot" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2020-09-02:4186</id>
+    <updated>2020-09-07T12:00:00Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans! I was on the Microsoft Azure YouTube show &lt;em&gt;Azure in the Enterprise&lt;/em&gt; with Lyle Dodge where I did a quick demonstration introducing the Spring for Microsoft Azure support for the Azure SQL Database Access. Check it out!&lt;/p&gt;
+&lt;p&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/RG6UqPJdqIs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt; &lt;/p&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>A Bootiful Podcast: SpringOne 2020, Josh's book "Reactive Spring," and Microsoft Java Architect and fellow Java Champion Jonathan Giles</title>
+    <link rel="alternate" href="https://spring.io/blog/2020/09/04/a-bootiful-podcast-springone-2020-josh-s-book-reactive-spring-and-microsoft-java-architect-and-fellow-java-champion-jonathan-giles" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2020-09-04:4190</id>
+    <updated>2020-09-04T12:37:50Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans! Welcome to another installment of a Bootiful Podcast! In this episode &lt;a href="http://twitter.com/starbuxman"&gt;Josh Long (@starbuxman)&lt;/a&gt; talks about the massive, virtual SpringOne 2020 event (tens of thousands of people in attendance!), his just-completed book &lt;a href="http://www.reactivespring.io"&gt;&amp;ldquo;Reactive Spring&amp;rdquo;&lt;/a&gt;, and then talks to Microsoft&amp;rsquo;s &lt;a href="https://twitter.com/jonathangiles"&gt;Jonathan Giles (@jonathangiles) &lt;/a&gt;. &lt;/p&gt;
+&lt;iframe title="SpringOne 2020, Azure Spring Cloud and fellow Java Champion and Microsoft Java architect Jonathan Giles" height="122" width="100%" style="border: none;" scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/idya5-ea2839?from=pb6admin&amp;download=1&amp;version=1&amp;auto=0&amp;share=1&amp;download=1&amp;rtl=0&amp;fonts=Helvetica&amp;skin=1&amp;pfauth=&amp;btn-skin=107"&gt;&lt;/iframe&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Tools 4.7.2 released</title>
+    <link rel="alternate" href="https://spring.io/blog/2020/09/03/spring-tools-4-7-2-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Martin Lippert</name>
+    </author>
+    <id>tag:spring.io,2020-09-03:4189</id>
+    <updated>2020-09-03T14:33:11Z</updated>
+    <content type="html">&lt;p&gt;Dear Spring Community,&lt;/p&gt;
+&lt;p&gt;I am happy to announce the 4.7.2 release of the Spring Tools 4 for Eclipse, Visual Studio Code, and Theia.&lt;/p&gt;
+&lt;p&gt;Highlights from this release include:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;(Eclipse)&lt;/em&gt; new: this releases introduces a completely new wizard in Eclipse to add Spring Boot starter modules to existing projects. Take a look at the user guide section about it to learn all about this new and way more flexible way to add modules to your Spring Boot projects.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;(Eclipse)&lt;/em&gt; new: this releases introduces an experimental early version of support for the Spring Boot OCI image building support in combination with Docker. You can now use the Spring Boot Dashboard in Spring Tools 4 for Eclipse to create images and run them on docker, debug the app on Docker and use Spring Boot Devtools on Docker - and all this is just one click away. Check out the preliminary section about it in the user guide.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;(Eclipse)&lt;/em&gt; enhancement: Spring Tools 4 for Eclipse distributions now have the standard Eclipse tooling for Docker pre-installed&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;(Eclipse)&lt;/em&gt; fixed: wizard to grab Spring guide projects now shows errors that happen while downloading the projects in dialog title section&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;(Eclipse)&lt;/em&gt; fixed: live hover caused exceptions in certain situations, fix contributed to lsp4e project&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;(Eclipse)&lt;/em&gt; enhancement: deploy Java 11 based Spring apps to Cloud Foundry now easier via the boot dashboard&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To download the distribution for Eclipse and find links to the marketplace entries for Visual Studio Code and Theia, please go visit:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Spring Tools 4: &lt;a href="https://spring.io/tools/"&gt;https://spring.io/tools/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Detailed changes can be found here: &lt;a href="https://github.com/spring-projects/sts4/wiki/Changelog#2020-08-27-472-release-incl-language-servers-version-1210"&gt;https://github.com/spring-projects/sts4/wiki/Changelog#2020-08-27-472-release-incl-language-servers-version-1210&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Spring Tools 4.8.0 is scheduled to be released in late September 2020.&lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>Hello, Azure Spring Cloud</title>
+    <link rel="alternate" href="https://spring.io/blog/2020/09/02/hello-azure-spring-cloud" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2020-09-02:4184</id>
+    <updated>2020-09-02T12:00:00Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;: This blog was drafted in cooperation with members of the Spring team and Microsoft Azure Spring Cloud team, including Josh Long, Julien Dubois, Sean Li, Kylie Liang, Jonathan Giles, Asir Selvasingh, and the rest of the Microsoft Azure Spring Cloud and VMware Spring teams.&lt;/p&gt;
+&lt;p&gt;Hi, Spring fans! It is with extreme delight that today we announce the general availability of &lt;a href="https://azure.microsoft.com/en-us/blog/azure-spring-cloud-a-fully-managed-service-for-spring-boot-apps-is-now-generally-available/"&gt;Azure Spring Cloud&lt;/a&gt;. Azure Spring Cloud is a platform for deploying and managing Spring Boot and Spring Cloud-powered services and software built on Microsoft Azure. It is jointly built, operated, and supported by Microsoft and VMware. &lt;/p&gt;
+&lt;p&gt;The key concept of Azure Spring Cloud is to optimize the path to production for Spring Boot-based microservices on a platform that leverages the Azure Kubernetes service, abstracting away all the complexity involved in managing Kubernetes. Let&amp;rsquo;s look at how Azure Spring Cloud does this in concrete terms. You&amp;rsquo;ll need to first setup a new Azure Spring Cloud service instance. You can do that easily in &lt;a href="http://portal.azure.com"&gt;the Azure Portal&lt;/a&gt; or on &lt;a href="https://github.com/microsoft/azure-spring-cloud-training/tree/master/01-create-an-azure-spring-cloud-instance"&gt;the command line&lt;/a&gt;. Once thats done we&amp;rsquo;re ready to ship software! &lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s start with something simple. Go the &lt;a href="http://start.Spring.io"&gt;Spring Initializr&lt;/a&gt; and build a new service. Add the &lt;code&gt;Reactive Web&lt;/code&gt; dependency. Click &lt;code&gt;Generate&lt;/code&gt;. You&amp;rsquo;ll be given a &lt;code&gt;zip&lt;/code&gt; file which you should unzip. The resulting project you can open up in any IDE you want. Edit &lt;code&gt;pom.xml&lt;/code&gt; and comment out the following dependencies for now:&lt;/p&gt;
+&lt;p&gt;Add the following Spring Webflux HTTP controller to your Java codebase in the same code page as your main application.&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint java"&gt;&lt;br/&gt;import org.springframework.web.bind.annotation.GetMapping;&#xD;
+import org.springframework.web.bind.annotation.RestController;&#xD;
+import java.util.Collection;&#xD;
+&#xD;
+@RestController&#xD;
+class HelloController {&#xD;
+&#xD;
+    @GetMapping(&amp;quot;/hello&amp;quot;)&#xD;
+    Map&amp;lt;String, String&amp;gt; hello() {&#xD;
+        return java.util.Collections.singletonMap(&amp;quot;greeting&amp;quot;, &amp;quot;Hello from Azure Spring Cloud&amp;quot;);&#xD;
+    }&#xD;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And then build the application as you would any Spring Boot application from the root of the project using Apache Maven:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint shell"&gt;mvn clean package -f pom.xml 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This will give you a &lt;code&gt;.jar&lt;/code&gt; that you can run normally: &lt;code&gt;java -jar target/*jar&lt;/code&gt;. &lt;/p&gt;
+&lt;p&gt;The application works, and now you can configure an application instance on Azure Spring Cloud so that when you deploy the &lt;code&gt;.jar&lt;/code&gt;, the platform will know what to do with it and how it should be configured. &lt;/p&gt;
+&lt;p&gt;You can create a new application in the Azure Portal or on the command line. &lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint shell "&gt;az spring-cloud app create -n simple-microservice
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You only need to create an application definition once. Thereafter we&amp;rsquo;ll only need to deploy the application itself. &lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint shell"&gt; az spring-cloud app deploy -n simple-microservice --jar-path target/demo-0.0.1-SNAPSHOT.jar
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And with that, the application is running in the cloud! Congrats! You&amp;rsquo;re in production. It&amp;rsquo;s a nice feeling, isn&amp;rsquo;t it? Production, in this case, is a very robust environment.&lt;/p&gt;
+&lt;img src = "https://raw.githubusercontent.com/joshlong/azure-2020-blog/master/images//azure-spring-cloud-in-vnet.jpg" width = "600" /&gt;
+&lt;p&gt;Once in production, you&amp;rsquo;ll need &lt;a href="https://github.com/microsoft/azure-spring-cloud-training/blob/master/03-configure-monitoring/README.md"&gt;distributed tracing and log aggregation&lt;/a&gt;. &lt;/p&gt;
+&lt;img src = "https://raw.githubusercontent.com/joshlong/azure-2020-blog/master/images/distributed-tracing-in-azure-spring-cloud.jpg" width = "600" /&gt;
+&lt;p&gt;You may want to centralize and secure configuration values, and this is trivial with the Spring Cloud Config Server, which is trivial to &lt;a href="https://github.com/microsoft/azure-spring-cloud-training/blob/master/04-configure-a-spring-cloud-config-server/README.md"&gt;setup in Azure Spring Cloud&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;And you can also take advantage of service registration and discovery using the pre-configured &lt;a href="https://github.com/microsoft/azure-spring-cloud-training/blob/master/05-build-a-spring-boot-microservice-using-spring-cloud-features/README.md"&gt;Eureka service registry in Azure Spring Cloud&lt;/a&gt;&lt;/p&gt;&lt;h2&gt;&lt;a href="#the-spring-on-azure-integrations" class="anchor" name="the-spring-on-azure-integrations"&gt;&lt;/a&gt;The Spring on Azure Integrations&lt;/h2&gt;
+&lt;p&gt;All that and we&amp;rsquo;ve only begun to tap the full power of Azure Spring Cloud! Azure Spring Cloud makes short work of standing up infrastructure to support microservices, but a typical application has a ton of other infrastructure requirements, and thankfully Microsoft Azure is more than ready to meet the need. &lt;/p&gt;
+&lt;p&gt;We still haven&amp;rsquo;t connected to a database, or a message queue, added security or anything else. Not to worry though, Spring Cloud for Microsoft Azure provides a rich toolbox allowing you to access Azure services in an idiomatic fashion for Spring applications. Let&amp;rsquo;s look at some, but definitively not all, of the possibilities.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;You can use Spring Security to talk to Active Directory&lt;/li&gt;
+  &lt;li&gt;You can use Spring Data R2DBC to talk to a Microsoft SQL Server instance in a reactive fashion, or use JDBC to talk to it in a non-reactive fashion&lt;/li&gt;
+  &lt;li&gt;You can use the reactove &lt;a href="https://github.com/microsoft/azure-spring-cloud-training/blob/master/06-build-a-reactive-spring-boot-microservice-using-cosmosdb/README.md"&gt;Spring Data MongoDB&lt;/a&gt; module to talk to Azure CosmosDB&lt;/li&gt;
+  &lt;li&gt;You can use Spring Cloud Stream to talk to Azure Service Bus&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Josh looked at some of these opportunities in depth in this talk from June 2020, delivered to a joint assembly of the &lt;a href="https://www.youtube.com/watch?reload=9&amp;v=dQuM2DkfBv0&amp;list=PLECEw2eFfW7hYMucZmsrryV_9nIc485P1"&gt;Singapore Java and Microsoft&lt;/a&gt; user groups.&lt;/p&gt;&lt;h2&gt;&lt;a href="#a-pivotal-collaboration" class="anchor" name="a-pivotal-collaboration"&gt;&lt;/a&gt;A Pivotal Collaboration&lt;/h2&gt;
+&lt;p&gt;In October 2019, Microsoft and VMware announced the collaboration of Azure Spring Cloud. Since then, many customers have approached us about this differentiated offering. Java and JVM developers in many organizations have used the service and provided us with plenty of feedback to prioritize features and shape Azure Spring Cloud. We have enabled security features to manage secrets, hybrid deployments, control ingress and egress to apps, and secure communications using TLS/SSL. To support performance and reliability we have enabled autoscaling, log streaming, alerts, and self-diagnostics. &lt;/p&gt;
+&lt;!-- photos of various people on the team --&gt;&lt;h2&gt;&lt;a href="#production-is-awesome-and-you-don-rsquo-t-have-to-take-our-word-for-it" class="anchor" name="production-is-awesome-and-you-don-rsquo-t-have-to-take-our-word-for-it"&gt;&lt;/a&gt;Production is Awesome, and You Don&amp;rsquo;t Have to Take Our Word For It&lt;/h2&gt;
+&lt;p&gt;We love the Azure Spring Cloud platform and we hope you will too. We know that lots of you already do!&lt;br/&gt;As it turns out, production _is awesome, and you don&amp;rsquo;t have to take out word for it! There are a few customer quotes over &lt;a href="https://azure.microsoft.com/en-us/blog/azure-spring-cloud-a-fully-managed-service-for-spring-boot-apps-is-now-generally-available"&gt;on the official release blog&lt;/a&gt;.&lt;/p&gt;&lt;h2&gt;&lt;a href="#learn-more-at-springone-2020-today-and-tomorrow" class="anchor" name="learn-more-at-springone-2020-today-and-tomorrow"&gt;&lt;/a&gt;Learn more at SpringOne 2020, today and tomorrow&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Microsoft&amp;rsquo;s Asir Selvasingh and Adib Sakali are doing &lt;a href="https://springone.io/2020/sessions/accelerate-spring-apps-to-the-cloud-at-scale-a-discussion-with-azure-spring-cloud-customers"&gt;a customer panel later today&lt;/a&gt; at SpringOne 2020 on Wednesday, Sep 2 at 12:35 PM PDT&lt;/li&gt;
+  &lt;li&gt;Microsoft&amp;rsquo;s Julien Dubois and Josh Long are presenting &lt;a href="https://springone.io/2020/sessions/bootiful-azure-spring-cloud"&gt;Bootiful Azure Spring Cloud&lt;/a&gt; at SpringOne 2020 on Thursday, Sep 3 at 11:35 AM PDT&lt;/li&gt;
+&lt;/ul&gt;&lt;h2&gt;&lt;a href="#next-steps" class="anchor" name="next-steps"&gt;&lt;/a&gt;Next Steps&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://github.com/microsoft/azure-spring-cloud-training"&gt;The excellent Azure Spring Cloud tutorial&lt;/a&gt;. Start here for the hands on Azure Spring Cloud experience.&lt;/li&gt;
+  &lt;li&gt;Josh was recently on the Lyle Dodge&amp;rsquo;s Microsoft Azure YouTube show &lt;strong&gt;&lt;em&gt;Azure in the Enterprise&lt;/em&gt;&lt;/strong&gt; demonstrating some of the Spring for Microsoft Azure integrations. Check these out: &lt;a href="https://youtu.be/IWQboyBohEI"&gt;How to use Spring and Initializr with Maven and Azure Cosmos DB&lt;/a&gt;, &lt;a href="https://www.youtube.com/watch?v=RG6UqPJdqIs&amp;feature=youtu.be"&gt;&lt;strong&gt;How to leverage the Spring framework with Azure SQL Database&lt;/strong&gt;&lt;/a&gt;, &lt;a href="https://youtu.be/3zoDqgjjT6E"&gt;How to use the Spring framework to access Azure Service Bus&lt;/a&gt;, &lt;a href="https://youtu.be/d4SfosPWz8s"&gt;How to use the Spring framework to access Azure Storage&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Microsoft&amp;rsquo;s Kylie Liang and Theresa Nguyen were on &lt;a href="http://bootifulpodcast.fm"&gt;Josh&amp;rsquo;s podcast - &lt;em&gt;A Bootiful Podcast&lt;/em&gt;&lt;/a&gt; to talk about &lt;a href="https://spring.io/blog/2019/04/05/a-bootiful-podcast-microsoft-s-kylie-liang-and-theresa-nguyen-on-microsoft-s-java-and-spring-support"&gt;Java and Spring Support&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Microsoft&amp;rsquo;s Kushagra Thapar was on &lt;a href="http://bootifulpodcast.fm"&gt;Josh&amp;rsquo;s podcast &lt;em&gt;A Bootiful Podcast&lt;/em&gt;&lt;/a&gt; to talk &lt;a href="https://spring.io/blog/2020/04/10/a-bootiful-podcast-microsoft-s-kushagra-thapar-on-spring-data-cosmosdb"&gt;about Spring and Azure CosmosDB&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Josh looked at some of the opportunities for Spring Cloud for Microsoft Azure in this talk from June 2020, delivered to a joint assembly of the &lt;a href="https://www.youtube.com/watch?reload=9&amp;v=dQuM2DkfBv0&amp;list=PLECEw2eFfW7hYMucZmsrryV_9nIc485P1"&gt;Singapore Java and Microsoft User Groups&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Josh took a detailed look at various features in the Spring for Microsoft Azure integration in &lt;a href="https://spring.io/blog/2019/01/03/bootiful-azure-taking-your-first-steps-with-microsoft-azure-1-6"&gt;this six-part blog series from 2018&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>This Week in Spring (SpringOne 2020 Edition) - September 1st, 2020</title>
+    <link rel="alternate" href="https://spring.io/blog/2020/09/02/this-week-in-spring-springone-2020-edition-september-1st-2020" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2020-09-02:4183</id>
+    <updated>2020-09-02T00:14:47Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans! Welcome to another action-packed installment of &lt;em&gt;This Week in Spring&lt;/em&gt;. Normally, I spend my time in these blogs looking at the week that was but I confess, as much as I love all the interesting stuff that&amp;rsquo;s come out in the last week, my heart&amp;rsquo;s just not in it! My mind instead is &lt;a href="http://springone.io"&gt;&lt;strong&gt;SpringOne 2020&lt;/strong&gt;&lt;/a&gt;, which starts Wednesday, tomorrow, at 6 AM PST. There&amp;rsquo;s going to be &lt;em&gt;so&lt;/em&gt; much good stuff, my friends. Obviously, there&amp;rsquo;s no better place to tackle the goings-on of the Spring community. But this show doesn&amp;rsquo;t stop there! There&amp;rsquo;s also going to be content around diversity and social justice. There will be content on operations, Cloud Foundry, and Kubernetes. There&amp;rsquo;s content directed at CTOs and technology leaders. There&amp;rsquo;s something for everybody. I. Can&amp;rsquo;t. Wait! &lt;/p&gt;
+&lt;p&gt;I wish, of course, that it was virtual, and that we could all interact in real life, but the SpringOne team has done a lot to compensate. First, VMware (the primary company that sponsors the Spring team and SpringOne) is giving out $25 Uber Eats credits, so no need to suffer through conference buffet lines! Second, the conference itself is free and virtual, so you can watch it in your pajamas and nobody will think anything of it. Third, there&amp;rsquo;s going to be opportunities for you to talk to &lt;a href="https://springone.io/2020/speakers?utm_campaign=Global_TS_SpringOne_2020&amp;utm_source=twitter&amp;utm_medium=social"&gt;the speakers&lt;/a&gt; after their respective talks, albeit virtually, replacing the &amp;ldquo;hallway&amp;rdquo; track at a non-virtual conference. And if all that weren&amp;rsquo;t enough, there&amp;rsquo;s a ton of cool stuff in the &lt;em&gt;social&lt;/em&gt; track, too. There&amp;rsquo;s a cooking class, an art class, a pet-parade, and more. &lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s been a busy week since we last spoke! We&amp;rsquo;ve got a ton of stuff to cover so let&amp;rsquo;s get to it. &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/08/27/a-bootiful-podcast-soby-chacko-and-dave-turanski-on-messaging-in-spring-spring-cloud-stream-app-starters-and-more"&gt;A Bootiful Podcast: Soby Chacko and Dave Turanski on Messaging in Spring, Spring Cloud Stream App Starters and More&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/springcentral/status/1298709812453052419"&gt;A friendly reminder that the Spring guides are a &lt;em&gt;fantastic&lt;/em&gt; resource for getting started with Spring.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/VMwareTanzu/status/1298784362599780352"&gt;Are you attending SpringOne but miss out on conference food? We&amp;rsquo;re giving away $25 in Uber Eats credits!&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/VMwareTanzu/status/1298715520196214793"&gt;Check out this blog detailing some of the goodness in Kubernetes 1.19!&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/VMwareTanzu/status/1298405649039204353"&gt;Did you miss the inaugural episode of our VMware Tanzu Twitch stream? I kicked things off while spending a few hours on the stream working over examples for my upcoming book &lt;a href="http://ReactiveSpring.io"&gt;&lt;em&gt;Reactive Spring&lt;/em&gt;&lt;/a&gt;. You can watch that and all subsequent streams on &lt;a href="http://twitch.tv/vmwaretanzu"&gt;our Twitch channel&lt;/a&gt;!&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/SpringData/status/1299353439978295302"&gt;Don&amp;rsquo;t miss this Cassandra talk at SpringOne 2020, brought to you by DataStax&amp;rsquo;s Alexandre Dutra and Spring Data project lead Mark Paluch.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/SpringData/status/1300715982852427777"&gt;Don&amp;rsquo;t miss this Neo4j talk at SpringOne 2020, brought to you by Neo4j&amp;rsquo;s Michael Simons and Gerrit Meier&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/springone/status/1300812091859914752?s=12"&gt;Get to know some of the SpringOne speakers now&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/java/status/1298667300183146496"&gt;Huzzah! Good news everyone! Jackson will support Java 14 records (a preview feature at the moment..)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://inside.java/2020/08/26/heap-snapshotting/"&gt;Interesting post over on the Inside Java blog: Heap Snapshotting&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://youtrack.jetbrains.com/issue/IDEABKL-708#focus=Comments-27-4365766.0-0"&gt;It&amp;rsquo;s finally here! Collaborative development for IntelliJ, after &lt;em&gt;years&lt;/em&gt; of people asking for it!&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://cloud.google.com/run/docs/tips/java#appcds"&gt;Optimizing Java applications for Cloud Run ?|? Cloud Run Documentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://tanzu.vmware.com/developer/tv/code/0001/"&gt;Orchestration for Reactive Spring with Josh Long | Tanzu.TV | VMware Tanzu Developer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/08/28/spring-cloud-hoxton-sr8-has-been-released"&gt;Spring Cloud Hoxton.SR8 has been released&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://tanzu.vmware.com/content/blog/the-state-of-spring-2020-report-is-now-available-learn-how-your-java-development-compares"&gt;The State of Spring 2020 Report Is Now Available?Learn How Your Java Development Compares&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/VMwareTanzu/status/1298717862173974530"&gt;The new Cloud Service Broker for Cloud Foundry offers a new way to CF users to consume public cloud services. Read our blog for a technical deep dive.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/springcloud/status/1300874401576034304"&gt;The state of Spring report is now available! Check it out.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.cloudfoundry.org/usn-4436-2/"&gt;USN-4436-2: librsvg regression&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.twitch.tv/vmwaretanzu"&gt;You should subscribe to VMwareTanzu!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Cloud Hoxton.SR8 has been released</title>
+    <link rel="alternate" href="https://spring.io/blog/2020/08/28/spring-cloud-hoxton-sr8-has-been-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Spencer Gibb</name>
+    </author>
+    <id>tag:spring.io,2020-08-28:4181</id>
+    <updated>2020-08-28T21:37:53Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the community, I am pleased to announce that the Service Release 8 (SR8) of the &lt;a href="https://cloud.spring.io"&gt;Spring Cloud Hoxton&lt;/a&gt; Release Train is available today. The release can be found in &lt;a href="https://repo1.maven.org/maven2/org/springframework/cloud/spring-cloud-dependencies/Hoxton.SR8/"&gt;Maven Central&lt;/a&gt;. You can check out the Hoxton &lt;a href="https://github.com/spring-projects/spring-cloud/wiki/Spring-Cloud-Hoxton-Release-Notes"&gt;release notes for more information&lt;/a&gt;.&lt;/p&gt;&lt;h2&gt;&lt;a href="#notable-changes-in-the-hoxton-release-train" class="anchor" name="notable-changes-in-the-hoxton-release-train"&gt;&lt;/a&gt;Notable Changes in the Hoxton Release Train&lt;/h2&gt;
+&lt;p&gt;This was primarily a bug fix and documentation release.&lt;/p&gt;
+&lt;p&gt;See all of the included issues and pull requests at the &lt;a href="https://github.com/orgs/spring-cloud/projects/44"&gt;GitHub project&lt;/a&gt;. Hoxton.SR8 is compatible with Spring Boot 2.3.x and 2.2.x.&lt;/p&gt;&lt;h3&gt;&lt;a href="#spring-cloud-netflix" class="anchor" name="spring-cloud-netflix"&gt;&lt;/a&gt;Spring Cloud Netflix&lt;/h3&gt;
+&lt;p&gt;Added support for TLS configuration to Eureka Client.&lt;/p&gt;&lt;h3&gt;&lt;a href="#spring-cloud-config" class="anchor" name="spring-cloud-config"&gt;&lt;/a&gt;Spring Cloud Config&lt;/h3&gt;
+&lt;p&gt;Added support for TLS configuration to Config Client.&lt;/p&gt;&lt;h3&gt;&lt;a href="#spring-cloud-kubernetes" class="anchor" name="spring-cloud-kubernetes"&gt;&lt;/a&gt;Spring Cloud Kubernetes&lt;/h3&gt;
+&lt;p&gt;Adds support for Spring Cloud Loadbalancer. Automatically adds namespace to Service Instance metadata.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;The following modules were updated as part of Hoxton.SR8:&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Module &lt;/th&gt;
+      &lt;th&gt;Version &lt;/th&gt;
+      &lt;th&gt;Issues&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Starter Build &lt;/td&gt;
+      &lt;td&gt;Hoxton.SR8 &lt;/td&gt;
+      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Netflix &lt;/td&gt;
+      &lt;td&gt;2.2.5.RELEASE &lt;/td&gt;
+      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Openfeign &lt;/td&gt;
+      &lt;td&gt;2.2.5.RELEASE &lt;/td&gt;
+      &lt;td&gt;(&lt;a href="https://github.com/spring-cloud/spring-cloud-openfeign/milestone/27?closed=1"&gt;issues&lt;/a&gt;)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Config &lt;/td&gt;
+      &lt;td&gt;2.2.5.RELEASE &lt;/td&gt;
+      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Aws &lt;/td&gt;
+      &lt;td&gt;2.2.4.RELEASE &lt;/td&gt;
+      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Kubernetes &lt;/td&gt;
+      &lt;td&gt;1.1.6.RELEASE &lt;/td&gt;
+      &lt;td&gt;(&lt;a href="https://github.com/spring-cloud/spring-cloud-kubernetes/milestone/22?closed=1"&gt;issues&lt;/a&gt;)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Gateway &lt;/td&gt;
+      &lt;td&gt;2.2.5.RELEASE &lt;/td&gt;
+      &lt;td&gt;(&lt;a href="https://github.com/spring-cloud/spring-cloud-gateway/milestone/41?closed=1"&gt;issues&lt;/a&gt;)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Gcp &lt;/td&gt;
+      &lt;td&gt;1.2.5.RELEASE &lt;/td&gt;
+      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Commons &lt;/td&gt;
+      &lt;td&gt;2.2.5.RELEASE &lt;/td&gt;
+      &lt;td&gt;(&lt;a href="https://github.com/spring-cloud/spring-cloud-commons/milestone/78?closed=1"&gt;issues&lt;/a&gt;)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Sleuth &lt;/td&gt;
+      &lt;td&gt;2.2.5.RELEASE &lt;/td&gt;
+      &lt;td&gt;(&lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/milestone/80?closed=1"&gt;issues&lt;/a&gt;)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Vault &lt;/td&gt;
+      &lt;td&gt;2.2.5.RELEASE &lt;/td&gt;
+      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;As always, we welcome feedback on &lt;a href="https://github.com/spring-cloud/"&gt;GitHub&lt;/a&gt;, on &lt;a href="https://gitter.im/spring-cloud/spring-cloud"&gt;Gitter&lt;/a&gt;, on &lt;a href="https://stackoverflow.com/questions/tagged/spring-cloud"&gt;Stack Overflow&lt;/a&gt;, or on &lt;a href="https://twitter.com/SpringCloud"&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To get started with Maven with a BOM (dependency management only):&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint xml"&gt;&amp;lt;dependencyManagement&amp;gt;&#xD;
+    &amp;lt;dependencies&amp;gt;&#xD;
+        &amp;lt;dependency&amp;gt;&#xD;
+            &amp;lt;groupId&amp;gt;org.springframework.cloud&amp;lt;/groupId&amp;gt;&#xD;
+            &amp;lt;artifactId&amp;gt;spring-cloud-dependencies&amp;lt;/artifactId&amp;gt;&#xD;
+            &amp;lt;version&amp;gt;Hoxton.SR8&amp;lt;/version&amp;gt;&#xD;
+            &amp;lt;type&amp;gt;pom&amp;lt;/type&amp;gt;&#xD;
+            &amp;lt;scope&amp;gt;import&amp;lt;/scope&amp;gt;&#xD;
+        &amp;lt;/dependency&amp;gt;&#xD;
+    &amp;lt;/dependencies&amp;gt;&#xD;
+&amp;lt;/dependencyManagement&amp;gt;&#xD;
+&amp;lt;dependencies&amp;gt;&#xD;
+    &amp;lt;dependency&amp;gt;&#xD;
+        &amp;lt;groupId&amp;gt;org.springframework.cloud&amp;lt;/groupId&amp;gt;&#xD;
+        &amp;lt;artifactId&amp;gt;spring-cloud-starter-config&amp;lt;/artifactId&amp;gt;&#xD;
+    &amp;lt;/dependency&amp;gt;&#xD;
+    &amp;lt;dependency&amp;gt;&#xD;
+        &amp;lt;groupId&amp;gt;org.springframework.cloud&amp;lt;/groupId&amp;gt;&#xD;
+        &amp;lt;artifactId&amp;gt;spring-cloud-starter-netflix-eureka-client&amp;lt;/artifactId&amp;gt;&#xD;
+    &amp;lt;/dependency&amp;gt;&#xD;
+    ...&#xD;
+&amp;lt;/dependencies&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;or with Gradle:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint groovy"&gt;buildscript {&#xD;
+  dependencies {&#xD;
+    classpath &amp;quot;io.spring.gradle:dependency-management-plugin:1.0.10.RELEASE&amp;quot;&#xD;
+  }&#xD;
+}&#xD;
+&#xD;
+apply plugin: &amp;quot;io.spring.dependency-management&amp;quot;&#xD;
+&#xD;
+dependencyManagement {&#xD;
+  imports {&#xD;
+    mavenBom &amp;#39;org.springframework.cloud:spring-cloud-dependencies:Hoxton.SR8&amp;#39;&#xD;
+  }&#xD;
+}&#xD;
+&#xD;
+dependencies {&#xD;
+  compile &amp;#39;org.springframework.cloud:spring-cloud-starter-config&amp;#39;&#xD;
+  compile &amp;#39;org.springframework.cloud:spring-cloud-starter-netflix-eureka-client&amp;#39;&#xD;
+  //...&#xD;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>A Bootiful Podcast: Soby Chacko and Dave Turanski on Messaging in Spring, Spring Cloud Stream App Starters and More</title>
+    <link rel="alternate" href="https://spring.io/blog/2020/08/27/a-bootiful-podcast-soby-chacko-and-dave-turanski-on-messaging-in-spring-spring-cloud-stream-app-starters-and-more" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2020-08-27:4180</id>
+    <updated>2020-08-27T22:59:06Z</updated>
+    <content type="html">&lt;p&gt;Hi Spring fans! In this episode &lt;a href="http://twitter.com/starbuxman"&gt;Josh Long (@starbuxman)&lt;/a&gt; looks at the week that was and then talks to Spring team members &lt;a href="https://twitter.com/sobychacko"&gt;Soby Chacko (@sobychacko)&lt;/a&gt; and &lt;a href="https://twitter.com/dturanski"&gt;Dave Turanski (@dturanski)&lt;/a&gt; about messaging in Spring, Spring Cloud, Spring Integration, Spring Cloud Stream, Spring Cloud Data Flow, Spring Cloud Stream App Starters.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;register &lt;a href="http://SpringOne.io"&gt;for SpringOne 2020! It&amp;rsquo;s free (and virtual) &lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;follow me &lt;a href="https://www.twitch.tv/javajoshlong"&gt;on Twitch (javajoshlong)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;iframe title="Soby Chacko and Dave Turanski on Messaging in Spring, Spring Cloud Stream App Starters and More " height="122" width="100%" style="border: none;" scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/4q5w3-e91736?from=pb6admin&amp;download=1&amp;version=1&amp;auto=0&amp;share=1&amp;download=1&amp;rtl=0&amp;fonts=Helvetica&amp;skin=1&amp;pfauth=&amp;btn-skin=107"&gt;&lt;/iframe&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>This Week in Spring - August 25th, 2020</title>
+    <link rel="alternate" href="https://spring.io/blog/2020/08/25/this-week-in-spring-august-25th-2020" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2020-08-25:4179</id>
+    <updated>2020-08-25T23:53:23Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! It&amp;rsquo;s been an insane week since we last spoke and things are only going to get nuttier between now and then! I&amp;rsquo;ve been heads down in my preparations for my SpringOne talks - one on &lt;a href="http://twitter.com/JulienDubois"&gt;Azure with Julien Dubois (@JulienDubois)&lt;/a&gt; and another on &lt;a href="http://twitter.com/MarioGray"&gt;incorporating asynchronicity with Mario Gray (@MarioGray)&lt;/a&gt;. I&amp;rsquo;ve been heads down working on my book &lt;a href="http://ReactiveSpring.io"&gt;&lt;em&gt;Reactive Spring&lt;/em&gt;&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;A few upcoming events worth noting: &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;I&amp;rsquo;ll be streaming on Twitch tomorrow (Wednesday), noon, PST. Follow me on Twitter &lt;a href="http://twitter.com/starbuxman"&gt;@starbuxman&lt;/a&gt; for the link.&lt;/li&gt;
+  &lt;li&gt;I&amp;rsquo;ll be presenting at the September &lt;a href="https://www.meetup.com/DenverJavaUsersGroup/events/cpmtcqybcmbmb/"&gt;edition of the Denver JUG&lt;/a&gt; to introduce RSocket. RSVP.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Alright my friends, let&amp;rsquo;s get into it. We&amp;rsquo;ve got a ton of stuff to go through so onward! &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/liangkylie/status/1296682854194327552?s=12"&gt;Azure Spring Cloud now supports autoscale!&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://techcommunity.microsoft.com/t5/spring-on-azure/azure-spring-integrations-august-update/ba-p/1595105"&gt;Azure Spring Integrations ? August update - Microsoft Tech Community - 1595105&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/08/21/bootiful-podcast-google-cloud-s-elena-felder-on-spring-cloud-gcp-reactor-and-more"&gt;Bootiful Podcast: Google Cloud&amp;rsquo;s Elena Felder on Spring Cloud GCP, Reactor, and More&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.youtube.com/watch?feature=youtu.be&amp;v=PR6Gw4Ca-sE&amp;app=desktop"&gt;Build a Secure CRUD Application with React, Spring Boot, and Kotlin - YouTube&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/08/25/case-study-reading-from-a-file-and-writing-to-mongodb"&gt;Case Study: Reading from a file and writing to MongoDB&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/08/21/get-the-very-first-bits-of-spring-authorization-server-0-0-1"&gt;Get the very first bits of Spring Authorization Server 0.0.1 !&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://inside.java/2020/08/20/jep338-proposed-to-target-jdk16/"&gt;JEP proposed to target JDK 16: 338: Vector API (Incubator)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://blog.jetbrains.com/kotlin/2020/08/kotlin-1-4-released-with-a-focus-on-quality-and-performance/"&gt;Kotlin 1.4 Released with a Focus on Quality and Performance ? Kotlin Blog | JetBrains&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://jax.de/spring-boot-cheat-sheet/"&gt;Spring Boot Cheat Sheet | W-JAX |&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/08/22/spring-boot-for-apache-geode-vmware-gemfire-1-4-0-m2-and-1-3-3-release-available"&gt;Spring Boot for Apache Geode &amp;amp; VMware GemFire 1.4.0-M2 and 1.3.3.RELEASE Available&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/spencerbgibb/status/1296904539300388873?s=12"&gt;The RSocket routing broker roadmap is now available&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/08/19/this-week-in-spring-august-18th-2020"&gt;This Week in Spring - August 18th, 2020&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://coder.com/blog/coder-enterprise-cloud-foundry"&gt;Using Coder Enterprise with Cloud Foundry for a Seamless Software Development Lifecycle&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/asirselvasingh/status/1297736459940589571?s=12"&gt;Zero trust mode is here for Java Microsoft Azure applications!&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://devblogs.microsoft.com/java/java-on-visual-studio-code-update-july-2020/"&gt;I loved this presentation looking at the details of Java on Visual Studio Code&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/rabbitmq/rabbitmq-server/releases/tag/v3.8.7"&gt;RabbitMQ 3.8.7 is now available&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/snicoll/status/1296462986048045058?s=12"&gt;start.Spring.io now has TestContainers support&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>Case Study: Reading from a file and writing to MongoDB</title>
+    <link rel="alternate" href="https://spring.io/blog/2020/08/25/case-study-reading-from-a-file-and-writing-to-mongodb" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Soby Chacko</name>
+    </author>
+    <id>tag:spring.io,2020-08-25:4178</id>
+    <updated>2020-08-25T20:07:00Z</updated>
+    <content type="html">&lt;div class="paragraph"&gt;
+&lt;p&gt;This article is part of a blog series that explores the newly redesigned &lt;a href="https://github.com/spring-cloud/stream-applications"&gt;Spring Cloud Stream applications&lt;/a&gt; based on Java Functions. In this episode, we are taking a deeper look into the file supplier and its &lt;a href="https://spring.io/projects/spring-cloud-stream"&gt;Spring Cloud Stream&lt;/a&gt; file source counterpart. We will also see a MongoDB consumer and its corresponding Spring Cloud Stream sink. Finally, we will demonstrate how the File source and the MongoDB sink can be orchestrated together on &lt;a href="https://dataflow.spring.io/"&gt;Spring Cloud Data Flow&lt;/a&gt; as a pipeline.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Here are all the previous parts of this blog series.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://spring.io/blog/2020/07/13/introducing-java-functions-for-spring-cloud-stream-applications-part-0"&gt;Introducing Function Based Streaming Applications&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://spring.io/blog/2020/07/20/introducing-java-functions-for-spring-cloud-stream-applications-part-1"&gt;Function Composition with Streaming Applications&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://spring.io/blog/2020/07/27/creating-a-supplier-function-and-generating-spring-cloud-stream-source"&gt;How to Build a Supplier and Source Application&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://spring.io/blog/2020/08/03/creating-a-function-for-consuming-data-and-generating-spring-cloud-stream-sink-applications"&gt;How to Build a Consumer and Sink Application&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://spring.io/blog/2020/08/10/case-study-build-and-run-a-streaming-application-using-an-http-source-and-a-jdbc-sink"&gt;Build and Run a Simple Stream Application&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://spring.io/blog/2020/08/17/case-study-http-request-function-and-processor"&gt;Case Study: HTTP Request Function and Processor&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="file-reading-and-processing-use-cases"&gt;&lt;a class="anchor" href="#file-reading-and-processing-use-cases"&gt;&lt;/a&gt;File reading and processing use cases&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;File ingestion and reading data from those files is a classic enterprise use case. Many businesses have been relying on varying levels of file facilities for many decades to carry out mission-critical systems. Terabytes of data travel through the interwebs and enterprise intranets as files. For example, imagine a banking data center where it receives data from all its branches, ATMs, and POS transactions as files every second which then needs to be processed and placed into other systems. This is just one domain, but there are hundreds of thousands of examples out there in which file processing is on the critical path of many businesses. There are a lot of legacy systems in which many custom applications were written each employing its own ways of handling these use cases. Spring Integration has been providing &lt;a href="https://docs.spring.io/spring-integration/reference/html/file.html"&gt;file support&lt;/a&gt; as channel adapters for many years. These components can be realized as functions and in the case of reading from files, we can provide a generic &lt;code&gt;Supplier&lt;/code&gt; function that is reusable and injected in end-user applications. In the following sections, we will see more details about this functional abstraction and it¡¯s various usage scenarios.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="the-file-supplier"&gt;&lt;a class="anchor" href="#the-file-supplier"&gt;&lt;/a&gt;The File Supplier&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;&lt;a href="https://github.com/spring-cloud/stream-applications/tree/master/functions/supplier/file-supplier"&gt;File Supplier&lt;/a&gt; is a component that is implemented as  &lt;code&gt;java.util.function.Supplier&lt;/code&gt; bean which when invoked will deliver the contents of the files in a given directory. The file supplier has the following signature.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;Supplier&amp;lt;Flux&amp;lt;Message&amp;lt;?&amp;gt;&amp;gt;&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The users of the supplier can subscribe to the returned &lt;code&gt;Flux&amp;lt;Message&amp;lt;?&amp;gt;&lt;/code&gt;, which is a stream of messages or File objects in the directory themselves.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;In order to invoke the file supplier, we need to specify a directory to poll for files. The directory information is required and must be provided through the configuration property &lt;code&gt;file.supplier.directory&lt;/code&gt;. By default, the supplier will produce data as &lt;code&gt;byte[]&lt;/code&gt;, but it also supports two additional file consuming modes through the configuration property &lt;code&gt;file.consumer.mode&lt;/code&gt;. The additional values supported are &lt;code&gt;lines&lt;/code&gt; and &lt;code&gt;ref&lt;/code&gt;. The file consuming mode &lt;code&gt;lines&lt;/code&gt; will consume the file contents one line at a time. This is useful for reading text files such as CSV files and other structured textual data. The &lt;code&gt;ref&lt;/code&gt; mode will provide the actual &lt;code&gt;File&lt;/code&gt; object. By default, the file supplier also prevents reading the same file that it already read before. This is controlled through the property &lt;code&gt;file.supplier.preventDuplicates&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="reusing-file-supplier-in-custom-applications"&gt;&lt;a class="anchor" href="#reusing-file-supplier-in-custom-applications"&gt;&lt;/a&gt;Reusing File Supplier in custom applications&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;File supplier is a reusable Spring bean that we can be injected in end-user custom applications. Once injected, this can be directly invoked and combined with custom processing of the data. Here is an example.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;@Autowired
+Supplier&amp;lt;Flux&amp;lt;Message&amp;lt;?&amp;gt;&amp;gt;&amp;gt; fileSupplier;
+
+public void consumeDataAndSendEmail() {
+  Flux&amp;lt;Message&amp;lt;?&amp;gt; data = fileSupplier.get();
+  messageFlux.subscribe(t -&amp;gt; {
+      if (t == something)
+         //send the email here.
+      }
+  }
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;In the above pseudo-code, we are injecting the file supplier bean and then use it to invoke its &lt;code&gt;get&lt;/code&gt; method to get a &lt;a href="https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html"&gt;Flux&lt;/a&gt;. We then subscribe to that &lt;code&gt;Flux&lt;/code&gt; and each time receive any data through the &lt;code&gt;Flux&lt;/code&gt;, apply some filtering, and take actions based on that. This is just a simple illustration to show how we can reuse the file supplier. When you try this in a real application, you probably need to do more adjustments in your implementation, such as converting the default data type of the received data from &lt;code&gt;byte[]&lt;/code&gt; into something else before doing the conditional check or changing the default file reading mode from &lt;code&gt;content&lt;/code&gt; to &lt;code&gt;lines&lt;/code&gt; etc.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="running-a-standalone-file-source-that-uses-the-file-supplier"&gt;&lt;a class="anchor" href="#running-a-standalone-file-source-that-uses-the-file-supplier"&gt;&lt;/a&gt;Running a standalone file source that uses the file supplier&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;File supplier becomes more powerful when it is combined with Spring Cloud Stream to make it a &lt;a href="https://github.com/spring-cloud/stream-applications/blob/master/applications/source/file-source/README.adoc"&gt;file source&lt;/a&gt;. As we have seen in the earlier blogs, this supplier is already prepackaged with both &lt;a href="https://repo.spring.io/libs-snapshot-local/org/springframework/cloud/stream/app/file-source-kafka/3.0.0-SNAPSHOT/"&gt;Kafka&lt;/a&gt; and &lt;a href="https://repo.spring.io/libs-snapshot-local/org/springframework/cloud/stream/app/file-source-rabbit/3.0.0-SNAPSHOT/"&gt;RabbitMQ&lt;/a&gt; binders in Spring Cloud Stream to make them uber jars which are runnable as Spring Boot applications. Let¡¯s see how we can take this uber jar and run it as standalone.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;As a first step, go ahead and grab this file source with the Apache Kafa variant.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;wget https://repo.spring.io/libs-snapshot-local/org/springframework/cloud/stream/app/file-source-kafka/3.0.0-SNAPSHOT/file-source-kafka-3.0.0-SNAPSHOT.jar&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Make sure that you have Kafka running at the default port.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Now it is time to run the file source standalone.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;java -jar file-source-kafka-3.0.0-SNAPSHOT.jar --file.supplier.directory=/tmp/data-files --file.consumer.mode=lines --spring.cloud.stream.bindings.output.destination=file-data&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;By default, Spring Cloud Stream expects the output binding to be &lt;code&gt;fileSupplier-out-0&lt;/code&gt; (since &lt;code&gt;fileSupplier&lt;/code&gt; is the supplier bean name). However, when these applications are generated, this output binding is overridden to &lt;code&gt;output&lt;/code&gt;. This is done in order to accommodate some requirements when running this source application on Spring Cloud Data Flow.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;We are also asking the application to read files landing in the &lt;code&gt;/tmp/data-files&lt;/code&gt; directory and consume them as one line at a time (using the mode &lt;code&gt;lines&lt;/code&gt;)..&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Watch the kafka topic &lt;code&gt;file-data&lt;/code&gt;. Using the &lt;a href="https://docs.confluent.io/current/app-development/kafkacat-usage.html"&gt;kafkacat&lt;/a&gt; tool, you can do this:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;&lt;code&gt;kafkacat -b localhost:9092 -t file-data&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Now, place some files in the &lt;code&gt;/tmp/data-files&lt;/code&gt; directory. You will see data arrive in the &lt;code&gt;file-data&lt;/code&gt; Kafka topic with each line in the files representing a Kafka record.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;If you want to restrict the files to certain patterns, you can use a simple naming pattern using the property &lt;code&gt;file.supplier.filenamePattern&lt;/code&gt; or a more complex regex based pattern using the property &lt;code&gt;file.supplier.filenameRegex&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="autoconfigured-processors-with-file-source"&gt;&lt;a class="anchor" href="#autoconfigured-processors-with-file-source"&gt;&lt;/a&gt;Autoconfigured processors with File Source&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;As we have seen in the &lt;a href="https://spring.io/blog/2020/07/20/introducing-java-functions-for-spring-cloud-stream-applications-part-1"&gt;second part&lt;/a&gt; of this blog series, all the out of the box Spring Cloud Stream source applications are already autoconfigured with several out of the box general-purpose processors. You can activate these processors as part of the File source. Here is an example, where we run the file source and receive the data and then transforms the consumed data before sending it out to the destination on middleware.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;java -jar file-source-kafka-3.0.0-SNAPSHOT.jar --file.supplier.directory=/tmp/data-files --file.consumer.mode=lines --spring.cloud.stream.bindings.output.destination=file-data --spring.cloud.function.definition=fileSupplier|spelFunction --spel.function.expression=payload.toUpperCase()&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;By providing the value, &lt;code&gt;fileSupplier|spelFunction&lt;/code&gt; for &lt;code&gt;spring.cloud.function.definition&lt;/code&gt; property, we are activating the spel function composed with the file supplier. Then we provide a SpEL expression that we want to use to transform the data using &lt;code&gt;spel.function.expression&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;There are several other functions available to compose this way. Take a look &lt;a href="https://github.com/spring-cloud/stream-applications/blob/master/docs/FunctionComposition.adoc"&gt;here&lt;/a&gt; fore more details.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="mongodb-consumer"&gt;&lt;a class="anchor" href="#mongodb-consumer"&gt;&lt;/a&gt;MongoDB Consumer&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;MongoDB consumer provides a function that allows one to receive data from external systems and then write that data into MongoDB. We can use the consumer bean directly in our custom applications to insert data into MongoDB collections. Here is the type signature of the MongoDB consumer bean.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;Consumer&amp;lt;Message&amp;lt;?&amp;gt;&amp;gt; mongodbConsumer&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Once injected into a custom application, users can directly invoke the &lt;code&gt;accept&lt;/code&gt; method of the consumer and provide a &lt;code&gt;Message&amp;lt;?&amp;gt;&lt;/code&gt; object to send it¡¯s payload to a MongoDB collection.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;When using the MongoDB consumer, the collection is a required property and it must be configured through &lt;code&gt;mongodb.consumer.collection&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="standalone-spring-cloud-stream-mongodb-sink-using-the-consumer"&gt;&lt;a class="anchor" href="#standalone-spring-cloud-stream-mongodb-sink-using-the-consumer"&gt;&lt;/a&gt;Standalone Spring Cloud Stream MongoDB sink using the consumer&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;As in the case of File Source, Spring Cloud Stream out of the box applications already provide a MongoDB sink using the MongoDB consumer. The sink is available for both &lt;a href="https://repo.spring.io/libs-snapshot-local/org/springframework/cloud/stream/app/mongodb-sink-kafka/3.0.0-SNAPSHOT/"&gt;Kafka&lt;/a&gt; and &lt;a href="https://repo.spring.io/libs-snapshot-local/org/springframework/cloud/stream/app/mongodb-sink-rabbit/3.0.0-SNAPSHOT/"&gt;RabbitMQ&lt;/a&gt; binder variants. When used as a Spring Cloud Stream sink, the MongoDB consumer is automatically configured to accept data from the respective middleware system, for example, from a Kafka topic or RabbitMQ exchange.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Let¡¯s take a few minutes and verify that we can run the MongoDB sink standalone.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="sect2"&gt;
+&lt;h3 id="setting-up-mongodb-for-testing-the-sink-using-docker"&gt;&lt;a class="anchor" href="#setting-up-mongodb-for-testing-the-sink-using-docker"&gt;&lt;/a&gt;Setting up MongoDB for testing the sink using Docker&lt;/h3&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Perform the following commands on a terminal window.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;docker run -d --name my-mongo \
+    -e MONGO_INITDB_ROOT_USERNAME=mongoadmin \
+    -e MONGO_INITDB_ROOT_PASSWORD=secret \
+    -p 27017:27017 \
+    mongo&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;docker exec -it my-mongo /bin/sh&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;This will get us into a shell session into the running docker container. Invoke the following commands within the shell.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;# mongo
+
+&amp;gt; use admin
+
+&amp;gt; db.auth('mongoadmin','secret')
+1
+&amp;gt; db.createCollection('test_collection¡¯')
+{ "ok" : 1 }&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Now that we have our MongoDB setup, let¡¯s run the sink standalone.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;wget https://repo.spring.io/libs-snapshot-local/org/springframework/cloud/stream/app/mongodb-sink-kafka/3.0.0-SNAPSHOT/mongodb-sink-kafka-3.0.0-SNAPSHOT.jar&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;java -jar mongodb-sink-kafka-3.0.0-SNAPSHOT.jar --mongodb.consumer.collection=test_collection --spring.data.mongodb.username=mongoadmin --spring.data.mongodb.password=secret --spring.data.mongodb.database=admin --spring.cloud.stream.bindings.input.destination=test-data-mongo&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Insert some JSON data into the Kafka topic &lt;code&gt;test-data-mongo&lt;/code&gt;. For instance, you can use the console producer script that comes with Kafka as below.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;/kafka-console-producer.sh --broker-list 127.0.0.1:9092 --topic test-data-mongo&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;And then produce data like this:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;{"hello":"mongo"}&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Go to the MongoDB CLI on the terminal that we started on the Docker shell above.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;db.test_collection.find()&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The data that we entered through the Kafka topic should be displayed as output.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="running-on-spring-cloud-data-flow"&gt;&lt;a class="anchor" href="#running-on-spring-cloud-data-flow"&gt;&lt;/a&gt;Running on Spring Cloud Data Flow&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Running both File source and MongoDB standalone was fine, but Spring Cloud Data Flow makes it really easy to run them as a pipeline. Basically we want to orchestrate a flow that is equivalent to &lt;code&gt;File Source | Filter | MongoDB&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;&lt;a href="https://spring.io/blog/2020/08/10/case-study-build-and-run-a-streaming-application-using-an-http-source-and-a-jdbc-sink"&gt;One of the blogs in this series&lt;/a&gt; dedicated to all the details of how you can run Spring Cloud Data Flow and deploy applications as streams. Please review that blog if you are not familiar with running Spring Cloud Data Flow. Below, we are providing the steps involved in setting up Spring Cloud Data Flow briefly.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;First, we need to get the docker-compose file for running Spring Cloud Data Flow.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;wget -O docker-compose.yml https://raw.githubusercontent.com/spring-cloud/spring-cloud-dataflow/v2.6.0/spring-cloud-dataflow-server/docker-compose.yml&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Also, get this additional docker-compose file for running MongoDB.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;wget -O mongodb.yml https://raw.githubusercontent.com/spring-cloud/stream-applications/gh-pages/files/mongodb.yml&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;We need to set up a few environment variables in order to run Spring Cloud Data Flow properly.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;export DATAFLOW_VERSION=2.6.0
+export SKIPPER_VERSION=2.5.0
+export STREAM_APPS_URI=https://repo.spring.io/libs-snapshot-local/org/springframework/cloud/stream/app/stream-applications-descriptor/2020.0.0-SNAPSHOT/stream-applications-descriptor-2020.0.0-SNAPSHOT.stream-apps-kafka-maven&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Now that we have everything ready to go, it is time to start running Spring Cloud Data Flow and all the other ancillary components.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;docker-compose -f docker-compose.yml -f mongo.yml up&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Once SCDF is up and running go to &lt;a href="http://localhost:9393/dashboard" class="bare"&gt;http://localhost:9393/dashboard&lt;/a&gt;. Then go to &lt;code&gt;Streams&lt;/code&gt; on the left-hand side and select &lt;code&gt;Create Stream&lt;/code&gt;. Select File from the source applications, Filter from the processors, and MongoDB from the sink applications. Click on the options and select the following properties. Here is a screenshot of how it should look after all the properties are selected.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;&lt;span class="image"&gt;&lt;img src="https://github.com/spring-cloud/stream-applications/blob/gh-pages/img/file-mongo/file-mongo-scdf-blog.png?raw=true" alt="File to MongoDB SCDF Blog Pipeline"&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Name the stream as file-source-filter-mongo and then click on Create the Stream. Once it&amp;#8217;s created, click on ¡°Deploy the Stream¡±. Accept all the default options and click on ¡°Deploy Stream¡± at the bottom of the screen.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Once the stream is deployed, go ahead and create a directory called &lt;code&gt;source-files&lt;/code&gt; in the same directory where the Spring Cloud Data Flow docker-compose script was invoked. This directory is already mounted by the docker container that is running one of the Spring Cloud Data Flow components (Skipper) and seen by the container. Ensure that this &lt;code&gt;source-files&lt;/code&gt; directory has the right access levels, especially, since the docker container will run the applications as root and you will most likely run as a non-root user on your local machine. Watch the file source application¡¯s logs on the UI for any permission errors. If you see any, address those issues.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Prepare a new terminal session with &lt;code&gt;mongo&lt;/code&gt; CLI tool.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;docker exec -it dataflow-mongo /bin/sh&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;# mongo
+
+&amp;gt; use admin
+
+&amp;gt; db.auth(¡®mongoadmin¡¯,'secret')
+1
+&amp;gt; db.createCollection(¡®mongo_data¡¯')
+{ "ok" : 1 }&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Place some files in the &lt;code&gt;source-files&lt;/code&gt; directory with the following contents.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;{"non-sql":"mongo"}
+{"sql":"mysql"}
+{"document":"mongo"}
+{"log":"kafka"}
+{"sink":"mongo"}&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Go to the &lt;code&gt;mongo&lt;/code&gt; cli terminal session.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;db.mongo_data.find()&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;You will see that the filtering component we added in the pipeline filtered out all entries in the files that do not contain the word &lt;code&gt;mongo&lt;/code&gt; in it. You should see the output similar to the following.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;{ "_id" : ObjectId("5f4551c470e0373080fcd0b8"), "non-sql" : "mongo" }
+{ "_id" : ObjectId("5f4551c470e0373080fcd0b2"), "sink" : "mongo" }
+{ "_id" : ObjectId("5f4551c470e0373080fcd0b5"), "document" : "mongo" }&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="summary"&gt;&lt;a class="anchor" href="#summary"&gt;&lt;/a&gt;Summary&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;In this blog, we took a whirlwind tour through File Supplier and it¡¯s Spring Cloud Stream source counterpart. We also saw the MongoDB consumer and the corresponding Spring Cloud Stream sink application. We looked at how the function components can be injected into custom applications. After that, we saw how to run the Spring Cloud Stream applications for both file source and MongoDB sink standalone. Finally, we delved into Spring Cloud Data Flow and orchestrated a pipeline that goes from File Source to MongoDB sink, on its way filtering some data out.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="sect2"&gt;
+&lt;h3 id="stay-tuned"&gt;&lt;a class="anchor" href="#stay-tuned"&gt;&lt;/a&gt;Stay tuned&lt;/h3&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;This blog series is going to continue. In the next coming weeks, we will look at more scenarios similar to what we described in this blog, but with different functions and applications.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Boot for Apache Geode &amp; VMware GemFire 1.4.0-M2 and 1.3.3.RELEASE Available</title>
+    <link rel="alternate" href="https://spring.io/blog/2020/08/22/spring-boot-for-apache-geode-vmware-gemfire-1-4-0-m2-and-1-3-3-release-available" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>John Blum</name>
+    </author>
+    <id>tag:spring.io,2020-08-21:4177</id>
+    <updated>2020-08-22T00:05:28Z</updated>
+    <content type="html">&lt;div class="paragraph"&gt;
+&lt;p&gt;On behalf of the Spring, Apache Geode and VMware Tanzu GemFire communities, is it is my pleasure to announce the release of &lt;em&gt;&lt;strong&gt;Spring Boot for Apache Geode &amp;amp; VMware GemFire&lt;/strong&gt;&lt;/em&gt; (SBDG) &lt;code&gt;1.4.0-M2&lt;/code&gt; &amp;amp; &lt;code&gt;1.3.3.RELEASE&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;SBDG &lt;code&gt;1.4.0-M2&lt;/code&gt; builds on:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Spring Boot &lt;code&gt;2.4.0-M2&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Spring Framework &lt;code&gt;5.3.0-M2&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Spring Data for Apache Geode &amp;amp; VMware GemFire (SDG) &lt;code&gt;2020.0.0-M2&lt;/code&gt; (Ockham-M2/2.4.0-M2)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Spring Session for Apache Geode &amp;amp; VMware GemFire (SSDG) &lt;code&gt;2020.0.0-M1&lt;/code&gt; (2.4.0-M1)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Spring Test for Apache Geode &amp;amp; VMware GemFire (STDG) &lt;code&gt;0.0.18.RELEASE&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;SBDG &lt;code&gt;1.3.3.RELEASE&lt;/code&gt; builds on:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Spring Boot &lt;code&gt;2.3.3.RELEASE&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Spring Framework &lt;code&gt;5.2.8.RELEASE&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Spring Data for Apache Geode &amp;amp; VMware GemFire (SDG) &lt;code&gt;Neumann-SR3&lt;/code&gt; (2.3.3.RELEASE)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Spring Session for Apache Geode &amp;amp; VMware GemFire (SSDG) &lt;code&gt;Dragonfruit-RELEASE&lt;/code&gt; (2.3.0.RELEASE)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Spring Test for Apache Geode &amp;amp; VMware GemFire (STDG) &lt;code&gt;0.0.18.RELEASE&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;You can review the &lt;a href="https://github.com/spring-projects/spring-boot-data-geode/wiki/Spring-Boot-for-Apache-Geode-and-Pivotal-GemFire-Version-Compatibility-Matrix#version-compatibility-matrix"&gt;Version Compatibility Matrix&lt;/a&gt; for complete details (Scroll the table to the right to see all dependencies).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The best way to get started, building Spring Boot applications using Apache Geode is with the Spring Initializer at &lt;a href="https://start.spring.io9"&gt;start.spring.io&lt;/a&gt;.  Just click on this &lt;a href="https://start.spring.io/#!platformVersion=2.4.0-M2&amp;amp;dependencies=geode"&gt;link&lt;/a&gt; to get started.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="whats-new"&gt;&lt;a class="anchor" href="#whats-new"&gt;&lt;/a&gt;What&amp;#8217;s New&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;SBDG 1.4 M2 adds dedicated support for &lt;a href="https://docs.spring.io/spring-boot-data-geode-build/1.4.x/reference/html5/#geode-caching-provider-inline-caching-asynchronous"&gt;Asynchronous (Write-Behind), Inline Caching&lt;/a&gt;!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;By applying the &lt;em&gt;Inline Caching&lt;/em&gt; pattern to your Spring Boot applications, Apache Geode will &lt;em&gt;Read-Through&lt;/em&gt; on cache misses and &lt;em&gt;Write-Through&lt;/em&gt; (sync), or &lt;em&gt;Write-Behind&lt;/em&gt; (async), on cache updates, automatically, without requiring you to do anything special in your application.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;You should use asynchronous, &lt;em&gt;Write-Behind&lt;/em&gt; Inline Caching if strong consistency is not required and you desire better throughput.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="admonitionblock tip"&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td class="icon"&gt;
+&lt;div class="title"&gt;Tip&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class="content"&gt;
+SBDG already supported &lt;a href="https://docs.spring.io/spring-boot-data-geode-build/1.4.x/reference/html5/#geode-caching-provider-inline-caching-synchronous"&gt;Synchronous (Read/Write-Through) Inline Caching&lt;/a&gt;.  Also see the associated Sample &lt;a href="https://docs.spring.io/spring-boot-data-geode-build/1.4.x/reference/html5/guides/caching-inline.html"&gt;Guide&lt;/a&gt; and &lt;a href="https://github.com/spring-projects/spring-boot-data-geode/tree/1.4.0-M2/spring-geode-samples/caching/inline"&gt;Example Code&lt;/a&gt;.
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class="admonitionblock tip"&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td class="icon"&gt;
+&lt;div class="title"&gt;Tip&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class="content"&gt;
+SBDG also supports the &lt;a href="https://docs.spring.io/spring-boot-data-geode-build/1.4.x/reference/html5/#geode-caching-provider-look-aside-caching"&gt;Look-Aside&lt;/a&gt;, &lt;a href="https://docs.spring.io/spring-boot-data-geode-build/1.4.x/reference/html5/#geode-caching-provider-near-caching"&gt;Near&lt;/a&gt; and &lt;a href="https://docs.spring.io/spring-boot-data-geode-build/1.4.x/reference/html5/guides/caching-multi-site.html"&gt;Multi-Site&lt;/a&gt; Caching patterns.
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class="admonitionblock note"&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td class="icon"&gt;
+&lt;div class="title"&gt;Note&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class="content"&gt;
+When most people think of caching, they are technically referring to the &lt;em&gt;Look-Aside Caching&lt;/em&gt; pattern.  But, did you know, there are several patterns of caching: &lt;em&gt;Look-Aside&lt;/em&gt;, &lt;em&gt;Near Caching&lt;/em&gt;, &lt;em&gt;Inline Caching&lt;/em&gt; (Sync &amp;amp; Async) and &lt;em&gt;Multi-Site Caching&lt;/em&gt;.  Do not confuse the "pattern" of caching (how it is applied) with the "use case" for caching (what it is used for), e.g. (HTTP) Session state caching.  Yes, there are many more "uses" for caching, but very specific patterns with architectural pros and cons that are applicable to a use case or not.  "&lt;em&gt;The more you know&amp;#8230;&amp;#8203;&lt;/em&gt;"
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Both SBDG 1.4 M2 and 1.3.3.RELEASE include the new &lt;code&gt;spring-geode-bom&lt;/code&gt; module. Given SBDG consists of the following modules:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;spring-geode-starter&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;spring-geode-starter-actuator&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;spring-geode-starter-session&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;spring-geode-starter test&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;By using the new Maven BOM file, you can collectively and consistently manage the versions of SBDG&amp;#8217;s modules required by your application simply by declaring dependency management in your Spring Boot Gradle or Maven POM project build files.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;For example:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code class="language-xml" data-lang="xml"&gt;&amp;lt;properties&amp;gt;
+    &amp;lt;spring-geode.version&amp;gt;1.4.0-M2&amp;lt;/spring-geode.version&amp;gt;
+&amp;lt;/properties&amp;gt;
+
+&amp;lt;dependencyManagement&amp;gt;
+    &amp;lt;dependencies&amp;gt;
+        &amp;lt;dependency&amp;gt;
+            &amp;lt;groupId&amp;gt;org.springframework.geode&amp;lt;/groupId&amp;gt;
+            &amp;lt;artifactId&amp;gt;spring-geode-bom&amp;lt;/artifactId&amp;gt;
+            &amp;lt;version&amp;gt;${spring-geode.version}&amp;lt;/version&amp;gt;
+            &amp;lt;scope&amp;gt;import&amp;lt;/scope&amp;gt;
+            &amp;lt;type&amp;gt;pom&amp;lt;/type&amp;gt;
+        &amp;lt;/dependency&amp;gt;
+    &amp;lt;/dependencies&amp;gt;
+&amp;lt;/dependencyManagement&amp;gt;
+
+&amp;lt;dependencies&amp;gt;
+    &amp;lt;dependency&amp;gt;
+        &amp;lt;groupId&amp;gt;org.springframework.geode&amp;lt;/groupId&amp;gt;
+        &amp;lt;artifactId&amp;gt;spring-geode-starter&amp;lt;/artifactId&amp;gt;
+    &amp;lt;/dependency&amp;gt;
+    &amp;lt;dependency&amp;gt;
+        &amp;lt;groupId&amp;gt;org.springframework.geode&amp;lt;/groupId&amp;gt;
+        &amp;lt;artifactId&amp;gt;spring-geode-starter-actuator&amp;lt;/artifactId&amp;gt;
+    &amp;lt;/dependency&amp;gt;
+    &amp;lt;dependency&amp;gt;
+        &amp;lt;groupId&amp;gt;org.springframework.geode&amp;lt;/groupId&amp;gt;
+        &amp;lt;artifactId&amp;gt;spring-geode-starter-test&amp;lt;/artifactId&amp;gt;
+        &amp;lt;scope&amp;gt;test&amp;lt;/scope&amp;gt;
+    &amp;lt;/dependency&amp;gt;
+&amp;lt;/dependencies&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;We will be requesting changes to Spring Initializer to declare the new &lt;code&gt;spring-geode-bom&lt;/code&gt; Maven BOM when generating Spring Boot Gradle/Maven projects using Apache Geode.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Other notable changes included in this release:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Updated the "&lt;em&gt;Getting Started&lt;/em&gt;" Sample &lt;a href="https://docs.spring.io/spring-boot-data-geode-build/1.4.x/reference/html5/guides/getting-started.html"&gt;Guide&lt;/a&gt; with a Section called "&lt;em&gt;Matching Client/Server Versions&lt;/em&gt;" under &lt;a href="https://docs.spring.io/spring-boot-data-geode-build/1.4.x/reference/html5/guides/getting-started.html#spring-geode-samples-getting-started-run-app-cloudplatform"&gt;"Run the Application in a Cloud Platform Environment"&lt;/a&gt; to help users navigate the version compatibility requirements of Spring Boot, Apache Geode, VMware/Pivotal GemFire and Pivotal Cloud Cache (now known as VMware Tanzu GemFire for VMs - BOSH)&amp;#8230;&amp;#8203; phew!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Included a new Sample &lt;a href="https://docs.spring.io/spring-boot-data-geode-build/1.4.x/reference/html5/guides/boot-security.html"&gt;Guide&lt;/a&gt; and &lt;a href="https://github.com/spring-projects/spring-boot-data-geode/tree/1.4.0-M2/spring-geode-samples/boot/security"&gt;Example Code&lt;/a&gt; on Security, i.e. securing your GemFire/Geode client and server with Spring Boot when running in both local and managed (e.g. cloud platform) environments.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;See the &lt;a href="https://github.com/spring-projects/spring-boot-data-geode/blob/master/spring-geode/src/main/resources/changelog.txt#L7-L53"&gt;changelog&lt;/a&gt; for complete details.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="whats-next"&gt;&lt;a class="anchor" href="#whats-next"&gt;&lt;/a&gt;What&amp;#8217;s Next&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;We will probably round out the SBDG 1.4 releases up to GA with another Sample Guide and Code on Asynchronous (Write-Behind) Inline Caching and double down on making the existing features more robust and reliable.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;1 of the projects other overarching goals is to make it hard to do the wrong thing.  We still have a ways to go, but each step along the way I am more confident things are moving in the right direction.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="conclusion"&gt;&lt;a class="anchor" href="#conclusion"&gt;&lt;/a&gt;Conclusion&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;As always, feedback and contributions are welcomed and appreciated.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;&lt;a href="https://github.com/spring-projects/spring-boot-data-geode/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot-data-geode/pulls"&gt;PR&lt;/a&gt; | &lt;a href="https://stackoverflow.com/questions/tagged/spring-boot"&gt;StackOverflow&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>Get the very first bits of Spring Authorization Server 0.0.1 !</title>
+    <link rel="alternate" href="https://spring.io/blog/2020/08/21/get-the-very-first-bits-of-spring-authorization-server-0-0-1" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Joe Grandja</name>
+    </author>
+    <id>tag:spring.io,2020-08-20:4175</id>
+    <updated>2020-08-21T12:04:31Z</updated>
+    <content type="html">&lt;div class="paragraph"&gt;
+&lt;p&gt;On behalf of the team and everyone who has contributed, we are very excited to deliver the very first bits of Spring Authorization Server in the 0.0.1 release!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;You can download it from &lt;a href="https://repo.spring.io/release/"&gt;repo.spring.io&lt;/a&gt; and Maven Central by using the module coordinates:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code class="language-groovy" data-lang="groovy"&gt;compile 'org.springframework.security.experimental:spring-security-oauth2-authorization-server:0.0.1'&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;For additional details on this new project, see the &lt;a href="https://spring.io/blog/2020/04/15/announcing-the-spring-authorization-server"&gt;initial announcement&lt;/a&gt; and &lt;a href="https://github.com/spring-projects-experimental/spring-authorization-server"&gt;project page&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The main features delivered in this initial release are:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;OAuth 2.0 Authorization Code Grant&amp;#8201;&amp;#8212;&amp;#8201;&lt;a href="https://tools.ietf.org/html/rfc6749#section-4.1"&gt;RFC 6749&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;OAuth 2.0 Client Credentials Grant&amp;#8201;&amp;#8212;&amp;#8201;&lt;a href="https://tools.ietf.org/html/rfc6749#section-4.4"&gt;RFC 6749&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;JSON Web Token (JWT)&amp;#8201;&amp;#8212;&amp;#8201;&lt;a href="https://tools.ietf.org/html/rfc7519"&gt;RFC 7519&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;JSON Web Signature (JWS)&amp;#8201;&amp;#8212;&amp;#8201;&lt;a href="https://tools.ietf.org/html/rfc7515"&gt;RFC 7515&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;JSON Web Key (JWK)&amp;#8201;&amp;#8212;&amp;#8201;&lt;a href="https://tools.ietf.org/html/rfc7517"&gt;RFC 7517&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Key Management for providing key(s) when signing a JWT (JWS)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;See the &lt;a href="https://github.com/spring-projects-experimental/spring-authorization-server/releases/tag/0.0.1"&gt;release notes&lt;/a&gt; for complete details.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;To get started using Spring Authorization Server, see the &lt;a href="https://github.com/spring-projects-experimental/spring-authorization-server/tree/master/samples/boot/oauth2-integration"&gt;sample&lt;/a&gt; to become familiar with setup and configuration.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;We would love to gather your feedback as we strive to improve and build upon this initial release.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;&lt;a href="https://github.com/spring-projects-experimental/spring-authorization-server"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects-experimental/spring-authorization-server/issues"&gt;GitHub Issues&lt;/a&gt; |  &lt;a href="https://app.zenhub.com/workspaces/authorization-server-5e8f3182b5e8f5841bfc4902/board?repos=248032165"&gt;ZenHub Board&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>Bootiful Podcast: Google Cloud's Elena Felder on Spring Cloud GCP, Reactor, and More</title>
+    <link rel="alternate" href="https://spring.io/blog/2020/08/21/bootiful-podcast-google-cloud-s-elena-felder-on-spring-cloud-gcp-reactor-and-more" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2020-08-21:4176</id>
+    <updated>2020-08-21T04:07:18Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans! In this episode, &lt;a href="http://twitter.com/starbuxman"&gt;Josh Long (@starbuxman)&lt;/a&gt; talks to Google Cloud&amp;rsquo;s &lt;a href="http://twitter.com/hellata"&gt;Elena Felder (@hellata)&lt;/a&gt; about building Reactor/Spring-based integrations for Google Cloud technologies like Google Cloud Spanner.&lt;/p&gt;
+&lt;iframe title="Google Cloud's Elena Felder on Google Cloud, Spanner, and Reactor-based integrations" height="122" width="100%" style="border: none;" scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/phdqq-e80955?from=pb6admin&amp;download=1&amp;version=1&amp;auto=0&amp;share=1&amp;download=1&amp;rtl=0&amp;fonts=Helvetica&amp;skin=1&amp;pfauth=&amp;btn-skin=107"&gt;&lt;/iframe&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>This Week in Spring - August 18th, 2020</title>
+    <link rel="alternate" href="https://spring.io/blog/2020/08/19/this-week-in-spring-august-18th-2020" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2020-08-19:4174</id>
+    <updated>2020-08-19T00:48:46Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans! Well, here we are! Nearing the end of August 2020! I can&amp;rsquo;t believe it! September follows August (last I checked) and with September comes SpringOne 2020! I am &lt;em&gt;so&lt;/em&gt; excited about this mega (and virtual) event and I hope you&amp;rsquo;ll consider joining us there! &lt;/p&gt;
+&lt;p&gt;On a personal note, today&amp;rsquo;s moving day for my family and me, so I have to get back to that. But we do have a &lt;em&gt;ton&lt;/em&gt; to get to so let&amp;rsquo;s dive into it.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/08/14/a-bootiful-podcast-rsocket-everywhere-and-maciej-walkowiak-on-spring-cloud-aws"&gt;A Bootiful Podcast: RSocket everywhere and Maciej Walkowiak on Spring Cloud AWS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://blogs.vmware.com/opensource/2020/08/13/a-bootiful-podcast-software-security-in-the-supply-chain/"&gt;A Bootiful Podcast: Software Security in the Supply Chain&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/springcloud/status/1295465794554429440"&gt;A new video in the Spring Cloud AWS series, this one looking at how to scale out databases with RDS and Spring Cloud AWS.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/08/17/case-study-http-request-function-and-processor"&gt;Case Study: HTTP Request Function and Processor&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/SpringData/status/1293476064094814208"&gt;CockroachDB &amp;amp; Spring Tutorials for Spring Data JDBC, JPA, &amp;amp; MyBatis&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/08/14/config-file-processing-in-spring-boot-2-4"&gt;Config file processing in Spring Boot 2.4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/08/14/creating-efficient-docker-images-with-spring-boot-2-3"&gt;Creating Efficient Docker Images with Spring Boot 2.3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=Ts2a-YdN6vI"&gt;Getting started with Spring Cloud AWS - YouTube&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://reflectoring.io/spring-bean-lifecycle/"&gt;Hooking Into the Spring Bean Lifecycle&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/cloudfoundry/status/1295762491503292417"&gt;How &lt;code&gt;cf-for-k8s&lt;/code&gt; Reinvents Cloud Foundry as a Native Kubernetes App Platform&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://inside.java/2020/08/07/loom-performance/"&gt;Interesting post on the performance of user-mode threads and coroutines&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring-gcp.saturnism.me/"&gt;Introduction - Spring Boot on GCP&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://m.facebook.com/355408241562041/videos/708422819736807"&gt;Microsoft&amp;rsquo;s Rory Preddy on Integrating ¡°Reactive¡± APIs to traditional relational databases&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://inside.java/2020/08/18/foreign-api-jep/"&gt;New candidate JEP: 389: Foreign Linker API (Incubator)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/08/13/premiering-the-rsocket-revolution"&gt;Premiering: The RSocket Revolution&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/08/13/spring-batch-4-3-0-m2-is-out"&gt;Spring Batch 4.3.0-M2 is out!&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/08/13/spring-boot-2-3-3-available-now"&gt;Spring Boot 2.3.3 available now&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/08/14/spring-boot-2-4-0-m2-is-now-available"&gt;Spring Boot 2.4.0-M2 is now available&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/08/12/spring-data-2020-0-0-m2-released"&gt;Spring Data 2020.0.0-M2 released&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/08/12/spring-data-neumann-sr3-released"&gt;Spring Data Neumann SR3 released&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/08/17/spring-initializr-0-9-1-available-now"&gt;Spring Initializr 0.9.1 available now&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/08/12/spring-integration-5-4-m2-available"&gt;Spring Integration 5.4 M2 Available&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/08/12/spring-security-5-3-4-5-2-6-5-1-12-5-0-18-4-2-18-released"&gt;Spring Security 5.3.4, 5.2.6, 5.1.12, 5.0.18, 4.2.18 Released&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/08/14/spring-security-5-4-0-rc1-released"&gt;Spring Security 5.4.0-RC1 Released&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/springcloud/status/1294325229913812993"&gt;The recent improvements to the way that Spring Boot loads configuration portend some nice changes for users of the Spring Cloud Config Server&amp;hellip;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://blogs.vmware.com/opensource/2020/08/18/vmware-open-source-security-foundation/"&gt;VMware Hits the Ground Running with the Launch of Open Source Security Foundation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/springcloud/status/1294389986016591881"&gt;Want to contribute to Spring Cloud Contract and move the code from Groovy to Java? We&amp;rsquo;d love your help&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/springcentral/status/1295765410655207428"&gt;What is Spring? A nice 4 minute explainer by Mark Heckler&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://inside.java/2020/08/12/skara-repos-transitions/"&gt;jdk/jdk repository transitions to Git, GitHub and Skara: September 5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>Case Study: HTTP Request Function and Processor</title>
+    <link rel="alternate" href="https://spring.io/blog/2020/08/17/case-study-http-request-function-and-processor" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>David Turanski</name>
+    </author>
+    <id>tag:spring.io,2020-08-15:4172</id>
+    <updated>2020-08-17T20:34:36Z</updated>
+    <content type="html">&lt;div class="sect2"&gt;
+&lt;h3 id="introduction"&gt;&lt;a class="anchor" href="#introduction"&gt;&lt;/a&gt;Introduction&lt;/h3&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;We began this series by introducing the new &lt;a href="https://spring.io/blog/2020/07/13/introducing-java-functions-for-spring-cloud-stream-applications-part-0"&gt;stream applications based on Java functions&lt;/a&gt;, and &lt;a href="https://spring.io/blog/2020/07/20/introducing-java-functions-for-spring-cloud-stream-applications-part-1"&gt;function composition&lt;/a&gt;.  The &lt;a href="https://spring.io/blog/2020/08/10/case-study-build-and-run-a-streaming-application-using-an-http-source-and-a-jdbc-sink"&gt;previous entry&lt;/a&gt; presented a tutorial for building a simple stream application and running it in Spring Cloud Data Flow.  Today we explore the &lt;a href="https://github.com/spring-cloud/stream-applications/tree/master/functions/function/http-request-function"&gt;HTTP Request Function &lt;/a&gt;and present examples of how to use it.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;In case you missed it, the prior posts in this series are:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://spring.io/blog/2020/07/13/introducing-java-functions-for-spring-cloud-stream-applications-part-0"&gt;Introducing Function Based Streaming Applications&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://spring.io/blog/2020/07/20/introducing-java-functions-for-spring-cloud-stream-applications-part-1"&gt;Function Composition with Streaming Applications&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://spring.io/blog/2020/07/27/creating-a-supplier-function-and-generating-spring-cloud-stream-source"&gt;How to Build a Supplier and Source Application&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://spring.io/blog/2020/08/03/creating-a-function-for-consuming-data-and-generating-spring-cloud-stream-sink-applications"&gt;How to Build a Consumer and Sink Application&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://spring.io/blog/2020/08/10/case-study-build-and-run-a-streaming-application-using-an-http-source-and-a-jdbc-sink"&gt;Build and Run a Simple Stream Application&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="sect3"&gt;
+&lt;h4 id="the-http-request-function"&gt;&lt;a class="anchor" href="#the-http-request-function"&gt;&lt;/a&gt;The HTTP Request Function&lt;/h4&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;This is an updated implementation of the legacy &lt;a href="https://github.com/spring-cloud-stream-app-starters/httpclient/blob/master/spring-cloud-starter-stream-processor-httpclient/README.adoc"&gt;HTTP Client Processor&lt;/a&gt; Stream App Starter, based on the reactive Spring &lt;a href="https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/reactive/function/client/WebClient.html"&gt;WebClient&lt;/a&gt;.  The function is an all purpose web client that submits HTTP requests to a URL and returns the response. Designed primarily for streaming applications, it is able to extract the URL, HTTP method, request body, desired response type, and contents, using configured &lt;a href="https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#expressions"&gt;SpEL expressions&lt;/a&gt;  evaluated against each incoming Message. Also, to support efficient stream processing, the function uses reactive streams. Its signature is:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="literalblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre&gt;Function&amp;lt;Flux&amp;lt;Message&amp;lt;?&amp;gt;&amp;gt;, Flux&amp;lt;?&amp;gt;&amp;gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;That is, it accepts a &lt;a href="https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html"&gt;Flux&lt;/a&gt; (stream) of Messages and returns a Flux of any type.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect3"&gt;
+&lt;h4 id="configuration-properties"&gt;&lt;a class="anchor" href="#configuration-properties"&gt;&lt;/a&gt;Configuration Properties&lt;/h4&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The HttpRequestFunction is configured through the following &lt;a href="https://github.com/spring-cloud/stream-applications/blob/master/functions/function/http-request-function/src/main/java/org/springframework/cloud/fn/http/request/HttpRequestFunctionProperties.java"&gt;configuration properties&lt;/a&gt;:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;&lt;em&gt;http.request.body-expression&lt;/em&gt;&lt;br&gt;
+A SpEL expression to derive the request body from the incoming message. (Expression, default: &amp;lt;none&amp;gt;)&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;&lt;em&gt;http.request.expected-response-type&lt;/em&gt;&lt;br&gt;
+The type used to interpret the response. (Class&amp;lt;?&amp;gt;, default: String)&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;&lt;em&gt;http.request.headers-expression&lt;/em&gt;&lt;br&gt;
+A SpEL expression used to derive the http headers map to use. (Expression, default: &amp;lt;none&amp;gt;)&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;&lt;em&gt;http.request.http-method-expression&lt;/em&gt;&lt;br&gt;
+A SpEL expression to derive the request method from the incoming message. (Expression, default: GET)&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;&lt;em&gt;http.request.maximum-buffer-size&lt;/em&gt;&lt;br&gt;
+Maximum buffer size in bytes allocated for input stream buffers. Defaults to 256k. Increase, as necessary, for posting or getting large binary content. (Integer, default: 256 * 1024)&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;&lt;em&gt;http.request.reply-expression&lt;/em&gt;&lt;br&gt;
+A SpEL expression used to compute the final result, applied against the whole http {@link org.springframework.http.ResponseEntity}. (Expression, default: ResponseEntity::getBody)&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;&lt;em&gt;http.request.timeout&lt;/em&gt;&lt;br&gt;
+Request timeout in milliseconds. (Long, default: 30000)&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;&lt;em&gt;http.request.url-expression&lt;/em&gt;&lt;br&gt;
+A SpEL expression against the incoming message to determine the URL to use. (Expression, default: &amp;lt;none&amp;gt;)&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The SpEL expressions are applied to the incoming Message.  So fields like &lt;code&gt;body&lt;/code&gt; and &lt;code&gt;headers[name]&lt;/code&gt; can be used to evaluate message contents.  I say "&lt;em&gt;can be¡¦&lt;/em&gt;" because sometimes it is more desirable to use static values. In this case, literal values must be enclosed in single quotes, for example:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre&gt;http.request.url-expression='https://start.spring.io'
+http.request.http-method-expression='POST'&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect3"&gt;
+&lt;h4 id="example-1-using-the-http-request-function-in-a-standalone-application"&gt;&lt;a class="anchor" href="#example-1-using-the-http-request-function-in-a-standalone-application"&gt;&lt;/a&gt;Example 1: Using the HTTP Request Function in a Standalone Application&lt;/h4&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Let¡¯s look at an example of how to use this function in a simple Spring Boot web application. In this example, we will use it in an app that retrieves an image from a URL and renders a thumbnail of the image. The complete code for this example is &lt;a href="https://github.com/spring-cloud/spring-cloud-stream-samples/tree/master/function-based-stream-app-samples/image-thumbnail-samples/image-thumbnail-web"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;We will build the application using Spring Boot and Spring Web Flux, along with our function to retrieve the image, and some code to generate a thumbnail.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The relevant dependencies are:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;org.springframework.cloud.fn:http-request-function - The HTTP request function transitively includes &lt;code&gt;spring-boot-starter-webflux&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;io.spring.example:image-thumbnail-processor - A simple Java function, included in this &lt;a href="https://github.com/spring-cloud/spring-cloud-stream-samples/blob/master/function-based-stream-app-samples/image-thumbnail-samples/image-thumbnail-processor/src/main/java/io/spring/example/image/thumbnail/processor/ThumbnailProcessor.java"&gt;example&lt;/a&gt;, that creates thumbnails. We won¡¯t get into the details here,  just note that it is a separate component which we will reuse in a later example.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;We first need to set some configuration properties for our function:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre&gt;http.request.url-expression=payload
+http.request.expected-response-type=byte[]
+http.request.maximum-buffer-size=2097152&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Thus, the message payload contains the target URL, the image(response body) will be returned as a byte array. And since these images might be fairly large, we will increase the size of the buffer holding the response body to 2GB (2 * 1024 * 1024).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Here is the code:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code class="language-java" data-lang="java"&gt;@SpringBootApplication
+@Controller
+@Import(HttpRequestFunctionConfiguration.class)
+public class ThumbnailStandaloneApplication {
+  private static Logger logger = LoggerFactory.getLogger(ThumbnailStandaloneApplication.class);
+
+  public static void main(String[] args) {
+    SpringApplication.run(ThumbnailStandaloneApplication.class, args);
+  }
+
+  private ThumbnailProcessor thumbnailProcessor = new ThumbnailProcessor();
+
+  @Autowired
+  private HttpRequestFunction httpRequestFunction;
+
+  @Bean
+  RouterFunction&amp;lt;?&amp;gt; routes() {
+    return RouterFunctions.route()
+        .GET("/thumbnail", this::createThumbnail)
+        .build();
+  }
+
+  private Mono&amp;lt;ServerResponse&amp;gt; createThumbnail(ServerRequest serverRequest) {
+    String url = serverRequest.queryParam("url").orElseThrow(
+                           () -&amp;gt; new RuntimeException("URL required"));
+
+    return Mono.from(httpRequestFunction.apply(Flux.just(new GenericMessage&amp;lt;&amp;gt;(url)))
+        .flatMap(image -&amp;gt; {
+          Map&amp;lt;String, Object&amp;gt; model = new HashMap&amp;lt;&amp;gt;();
+          byte[] thumbnail = thumbnailProcessor.apply((byte[]) image);
+          logger.info("creating thumbnail for {}", url);
+          model.put("url", url);
+          model.put("thumb", new String(Base64.getEncoder().encode(thumbnail)));
+          Mono&amp;lt;ServerResponse&amp;gt; serverResponse = ServerResponse.ok()
+              .render("thumbnail", model);
+          return serverResponse;
+        }));
+  }&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;We apply the &lt;code&gt;HttpRequestFunction&lt;/code&gt; to retrieve the image. Then we apply the &lt;code&gt;thumbnailProcessor&lt;/code&gt; to the returned byte array and encode it to base 64 so we can render it on the page.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;&lt;span class="image"&gt;&lt;img src="https://github.com/spring-cloud/spring-cloud-stream-samples/blob/master/function-based-stream-app-samples/image-thumbnail-samples/img/standalone.png?raw=true" alt="standalone"&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect3"&gt;
+&lt;h4 id="example-2-using-the-http-request-processor-in-a-streaming-application"&gt;&lt;a class="anchor" href="#example-2-using-the-http-request-processor-in-a-streaming-application"&gt;&lt;/a&gt;Example 2: Using the HTTP Request Processor in a streaming application&lt;/h4&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Now that we know how our function works, let&amp;#8217;s put together a streaming application, using Spring Cloud Stream, to do something similar.  In this case, we will use the pre-packaged &lt;a href="https://github.com/spring-cloud/stream-applications/tree/master/applications/processor/http-request-processor"&gt;HTTP Request Processor&lt;/a&gt; and &lt;a href="https://github.com/spring-cloud/stream-applications/tree/master/applications/source/file-source"&gt;File Source&lt;/a&gt; stream applications. This processor wraps the HTTP request function in a Spring Cloud Stream processor application that simply invokes the function, binding the input and output to a message broker destination (a Kafka topic, or a Rabbit MQ exchange, for example).  Our application, expressed in stream definition DSL, looks like:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre&gt;file-source | http-request-processor | image-thumbnail-sink&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;where the &lt;code&gt;|&lt;/code&gt; represents I/O using a message broker.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Here, we are using a &lt;a href="https://github.com/spring-cloud/spring-cloud-stream-samples/tree/master/function-based-stream-app-samples/image-thumbnail-samples/image-thumbnail-stream-sample/image-thumbnail-sink"&gt;user-developed sink&lt;/a&gt; that uses the &lt;a href="https://github.com/spring-cloud/stream-applications/tree/master/functions/consumer/file-consumer"&gt;file-consumer&lt;/a&gt; function to write each thumbnail to a file.  The sink uses Spring Cloud Function¡¯s declarative &lt;a href="https://spring.io/blog/2020/07/20/introducing-java-functions-for-spring-cloud-stream-applications-part-1"&gt;composition&lt;/a&gt; to compose the &lt;a href="https://github.com/spring-cloud/spring-cloud-stream-samples/blob/master/function-based-stream-app-samples/image-thumbnail-samples/image-thumbnail-processor/src/main/java/io/spring/example/image/thumbnail/processor/ThumbnailProcessor.java"&gt;thumbnail-processor&lt;/a&gt;, from the previous example, with a header enricher, and finally the  standard &lt;a href="https://github.com/spring-cloud/stream-applications/blob/master/functions/consumer/file-consumer"&gt;fileConsumer&lt;/a&gt;.  So our composed function is defined by:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre&gt;spring.cloud.function.definition=thumbnailProcessor|filenameEnricher|fileConsumer&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;in &lt;a href="https://github.com/spring-cloud/spring-cloud-stream-samples/blob/master/function-based-stream-app-samples/image-thumbnail-samples/image-thumbnail-stream-sample/image-thumbnail-sink/src/main/resources/application.properties"&gt;application.properties&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Our composite function definition is conceptually and syntactically similar to the above stream definition. But in this case the &lt;code&gt;|&lt;/code&gt; represents in-process communication.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;We will explore the ins and outs of the File Source in a future post. For now, we will use it to poll a source directory and produce messages whenever a new file is added to the directory. In this case, we want to process a text file with an image URL per line. We will configure the source to produce a message per line, containing the URL in the payload.   We already know what the HTTP request processor does. The sink generates a thumbnail and writes it to a file.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The fully configured stream definition is:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre&gt;file-source --file.consumer.mode=lines --file.consumer.mode=lines --file.supplier.directory=&amp;lt;source-directory&amp;gt; | http-request-processor --http.request.url-expression=payload --http.request.expected-response-type=byte[] --http.request.maximum-buffer-size=2097152| image-thumbnail-sink --file.consumer.directory=&amp;lt;target-directory&amp;gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;If we run this and drop a text file into the source directory, we will see the thumbnails written to the target directory:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;&lt;span class="image"&gt;&lt;img src="https://github.com/spring-cloud/spring-cloud-stream-samples/blob/master/function-based-stream-app-samples/image-thumbnail-samples/img/thumbnail-files.png?raw=true" alt="thumbnail files"&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;If you want to run this on your local machine, complete instructions are &lt;a href="https://github.com/spring-cloud/spring-cloud-stream-samples/tree/master/function-based-stream-app-samples/image-thumbnail-samples/image-thumbnail-stream-sample#thumbnail-stream-sample"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect3"&gt;
+&lt;h4 id="summary"&gt;&lt;a class="anchor" href="#summary"&gt;&lt;/a&gt;Summary&lt;/h4&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;We just did a deep dive on the HTTP Request Function, demonstrating how to use it in a standalone web application and in a streaming pipeline to process images. We also used function composition, composing user-written and out of the box functions, to great effect.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect3"&gt;
+&lt;h4 id="stay-tuned"&gt;&lt;a class="anchor" href="#stay-tuned"&gt;&lt;/a&gt;Stay Tuned&amp;#8230;&amp;#8203;&lt;/h4&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;In the coming weeks we will present many more case studies for Spring Cloud Stream and Spring Cloud Data Flow, each will highlight different stream applications and capabilities.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Initializr 0.9.1 available now</title>
+    <link rel="alternate" href="https://spring.io/blog/2020/08/17/spring-initializr-0-9-1-available-now" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>St?phane Nicoll</name>
+    </author>
+    <id>tag:spring.io,2020-08-17:4173</id>
+    <updated>2020-08-17T15:36:07Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, I¡¯m happy to announce that Spring Initializr 0.9.1 has been released and is now available from repo.spring.io and Maven Central.&lt;/p&gt;
+&lt;p&gt;This release includes &lt;a href="https://github.com/spring-io/initializr/releases/tag/v0.9.1"&gt;2 fixes&lt;/a&gt;. Thanks to all those who have contributed with issue reports and pull requests.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/spring-io/initializr"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-io/initializr/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://docs.spring.io/initializr/docs/0.9.1/reference/html"&gt;Documentation&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-initializr"&gt;Stack Overflow&lt;/a&gt; | &lt;a href="https://gitter.im/spring-io/initializr"&gt;Gitter&lt;/a&gt;&lt;/p&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>Creating Efficient Docker Images with Spring Boot 2.3</title>
+    <link rel="alternate" href="https://spring.io/blog/2020/08/14/creating-efficient-docker-images-with-spring-boot-2-3" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Madhura Bhave</name>
+    </author>
+    <id>tag:spring.io,2020-08-07:4154</id>
+    <updated>2020-08-14T19:07:45Z</updated>
+    <content type="html">&lt;p&gt;This is an update to the original blog post about &lt;a href="https://spring.io/blog/2020/01/27/creating-docker-images-with-spring-boot-2-3-0-m1"&gt;creating docker images with Spring Boot 2.3&lt;/a&gt;.&lt;br/&gt;There were a few things related to image creation that changed between the first milestone of Spring Boot 2.3 and the GA release.&lt;/p&gt;
+&lt;p&gt;The two new features introduced in Spring Boot 2.3 to help improve image creation techniques were: layered jars and buildpack support. &lt;/p&gt;&lt;h2&gt;&lt;a href="#layered-jars" class="anchor" name="layered-jars"&gt;&lt;/a&gt;Layered Jars&lt;/h2&gt;
+&lt;p&gt;The layered jar feature evolved quite a bit as we started adding support for custom layers. While the need to express layers that the jar should be split into for image creation was evident, changing the format of the jar to do so no longer seemed necessary.&lt;br/&gt;Spring Boot 2.3 includes support for layering a jar using a &lt;code&gt;layers.idx&lt;/code&gt; file. The layers index file provides a list of layers and the parts of the jar that should be contained within them. Layers are written in the order that they should be added to the Docker/OCI image.&lt;/p&gt;
+&lt;p&gt;By default, the following layers are defined:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;dependencies&lt;/code&gt; for any dependency whose version does not contain &lt;code&gt;SNAPSHOT&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;spring-boot-loader&lt;/code&gt; for the jar loader classes.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;snapshot-dependencies&lt;/code&gt; for any dependency whose version contains &lt;code&gt;SNAPSHOT&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;application&lt;/code&gt; for application classes and resources.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The corresponding &lt;code&gt;layers.idx&lt;/code&gt; file looks like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint"&gt;  - &amp;quot;dependencies&amp;quot;:&#xD;
+    - &amp;quot;BOOT-INF/lib/dependency1.jar&amp;quot;&#xD;
+    - &amp;quot;BOOT-INF/lib/dependency2.jar&amp;quot;&#xD;
+  - &amp;quot;spring-boot-loader&amp;quot;:&#xD;
+    - &amp;quot;org/&amp;quot;&#xD;
+  - &amp;quot;snapshot-dependencies&amp;quot;:&#xD;
+    - &amp;quot;BOOT-INF/lib/dependency3-SNAPSHOT.jar&amp;quot;&#xD;
+    - &amp;quot;BOOT-INF/lib/dependency4-SNAPSHOT.jar&amp;quot;    &#xD;
+  - &amp;quot;application&amp;quot;:&#xD;
+    - &amp;quot;BOOT-INF/classes/&amp;quot;&#xD;
+    - &amp;quot;META-INF/&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The layers order is important as it determines how likely previous layers are to be cached when part of the application changes.&lt;br/&gt;The default order is &lt;code&gt;dependencies&lt;/code&gt;, &lt;code&gt;spring-boot-loader&lt;/code&gt;, &lt;code&gt;snapshot-dependencies&lt;/code&gt;, &lt;code&gt;application&lt;/code&gt;.&lt;br/&gt;Content that is least likely to change should be added first, followed by layers that are more likely to change.&lt;/p&gt;
+&lt;p&gt;To use this feature with Spring Boot 2.3, the layering feature must be explicitly enabled. The following example shows how to enable layering with the Maven plugin:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint"&gt;  &amp;lt;project&amp;gt;&#xD;
+    &amp;lt;build&amp;gt;&#xD;
+      &amp;lt;plugins&amp;gt;&#xD;
+        &amp;lt;plugin&amp;gt;&#xD;
+          &amp;lt;groupId&amp;gt;org.springframework.boot&amp;lt;/groupId&amp;gt;&#xD;
+          &amp;lt;artifactId&amp;gt;spring-boot-maven-plugin&amp;lt;/artifactId&amp;gt;&#xD;
+          &amp;lt;version&amp;gt;{gradle-project-version}&amp;lt;/version&amp;gt;&#xD;
+          &amp;lt;configuration&amp;gt;&#xD;
+            &amp;lt;layers&amp;gt;&#xD;
+              &amp;lt;enabled&amp;gt;true&amp;lt;/enabled&amp;gt;&#xD;
+            &amp;lt;/layers&amp;gt;&#xD;
+          &amp;lt;/configuration&amp;gt;&#xD;
+        &amp;lt;/plugin&amp;gt;&#xD;
+      &amp;lt;/plugins&amp;gt;&#xD;
+    &amp;lt;/build&amp;gt;&#xD;
+  &amp;lt;/project&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;NOTE: In the latest Spring Boot 2.4 snapshots, layering is &lt;a href="https://github.com/spring-projects/spring-boot/issues/20983"&gt;enabled by default&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Once a jar containing the &lt;code&gt;layers.idx&lt;/code&gt; file has been created, the &lt;code&gt;layertools&lt;/code&gt; jarmode can be used to craft a Dockerfile using those layers. Details on how to use the jarmode with a Dockerfile can be found in the &lt;a href="https://spring.io/blog/2020/01/27/creating-docker-images-with-spring-boot-2-3-0-m1"&gt;previous blog post&lt;/a&gt;. &lt;/p&gt;&lt;h2&gt;&lt;a href="#cloud-native-buildpacks-support" class="anchor" name="cloud-native-buildpacks-support"&gt;&lt;/a&gt;Cloud Native Buildpacks Support&lt;/h2&gt;
+&lt;p&gt;Support for Cloud Native Buildpacks via the Spring Boot Maven and Gradle plugin has not changed since the last blog post and the details on that can be found &lt;a href="https://spring.io/blog/2020/01/27/creating-docker-images-with-spring-boot-2-3-0-m1"&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;h2&gt;&lt;a href="#custom-layers" class="anchor" name="custom-layers"&gt;&lt;/a&gt;Custom Layers&lt;/h2&gt;
+&lt;p&gt;While we think that the layers that we provide out-of-the-box will work for most Spring Boot applications, there might be a need to tune them based on your application&amp;rsquo;s needs. For example, you might have some organization-wide dependencies that change at a different cadence than regular dependencies. This might warrant splitting those dependencies out into a separate layer. The &lt;code&gt;layers.idx&lt;/code&gt; file can be customized using the Maven and Gradle plugins. The following example shows how to do so using a separate &lt;code&gt;layers.xml&lt;/code&gt; file with the Maven plugin:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint"&gt;&amp;lt;layers xmlns=&amp;quot;http://www.springframework.org/schema/boot/layers&amp;quot;&#xD;
+              xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot;&#xD;
+              xsi:schemaLocation=&amp;quot;http://www.springframework.org/schema/boot/layers&#xD;
+              https://www.springframework.org/schema/boot/layers/layers-{spring-boot-xsd-version}.xsd&amp;quot;&amp;gt;&#xD;
+    &amp;lt;application&amp;gt;&#xD;
+      &amp;lt;into layer=&amp;quot;spring-boot-loader&amp;quot;&amp;gt;&#xD;
+        &amp;lt;include&amp;gt;org/springframework/boot/loader/**&amp;lt;/include&amp;gt;&#xD;
+      &amp;lt;/into&amp;gt;&#xD;
+      &amp;lt;into layer=&amp;quot;application&amp;quot; /&amp;gt;&#xD;
+    &amp;lt;/application&amp;gt;&#xD;
+    &amp;lt;dependencies&amp;gt;&#xD;
+      &amp;lt;into layer=&amp;quot;snapshot-dependencies&amp;quot;&amp;gt;&#xD;
+        &amp;lt;include&amp;gt;*:*:*SNAPSHOT&amp;lt;/include&amp;gt;&#xD;
+      &amp;lt;/into&amp;gt;&#xD;
+      &amp;lt;into layer=&amp;quot;company-dependencies&amp;quot;&amp;gt;&#xD;
+        &amp;lt;include&amp;gt;com.acme:*&amp;lt;/include&amp;gt;&#xD;
+      &amp;lt;/into&amp;gt;&#xD;
+      &amp;lt;into layer=&amp;quot;dependencies&amp;quot;/&amp;gt;&#xD;
+    &amp;lt;/dependencies&amp;gt;&#xD;
+    &amp;lt;layerOrder&amp;gt;&#xD;
+      &amp;lt;layer&amp;gt;dependencies&amp;lt;/layer&amp;gt;&#xD;
+      &amp;lt;layer&amp;gt;spring-boot-loader&amp;lt;/layer&amp;gt;&#xD;
+      &amp;lt;layer&amp;gt;snapshot-dependencies&amp;lt;/layer&amp;gt;&#xD;
+      &amp;lt;layer&amp;gt;company-dependencies&amp;lt;/layer&amp;gt;&#xD;
+      &amp;lt;layer&amp;gt;application&amp;lt;/layer&amp;gt;&#xD;
+    &amp;lt;/layerOrder&amp;gt;&#xD;
+&amp;lt;/layers&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The configuration above creates an additional &lt;code&gt;company-dependencies&lt;/code&gt; layer with all libraries with the &lt;code&gt;com.acme&lt;/code&gt; groupId.&lt;/p&gt;
+&lt;p&gt;The &lt;a href="https://github.com/paketo-buildpacks/spring-boot"&gt;Paketo Spring Boot buildpack&lt;/a&gt; has also been updated to support the &lt;code&gt;layers.idx&lt;/code&gt; file so any customization that is applied to it will be reflected in the image created by the buildpack.&lt;/p&gt;
+&lt;p&gt;For more details on how to use layering and the buildpack integration to create optimized docker images, you can take a look at the reference documentation for the &lt;a href="https://docs.spring.io/spring-boot/docs/current/maven-plugin/reference/html/"&gt;Maven&lt;/a&gt; and &lt;a href="https://docs.spring.io/spring-boot/docs/current/gradle-plugin/reference/html/"&gt;Gradle&lt;/a&gt; plugins.&lt;/p&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>A Bootiful Podcast: RSocket everywhere and Maciej Walkowiak on Spring Cloud AWS</title>
+    <link rel="alternate" href="https://spring.io/blog/2020/08/14/a-bootiful-podcast-rsocket-everywhere-and-maciej-walkowiak-on-spring-cloud-aws" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2020-08-14:4171</id>
+    <updated>2020-08-14T06:10:08Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans! In this installment &lt;a href="http://twitter.com/starbuxman"&gt;Josh Long (@starbuxman)&lt;/a&gt; has RSocket on the brain with his latest talk, RSocket Revolution, the new RSocket chapter in his book &lt;em&gt;Reactive Spring&lt;/em&gt;, and the work he&amp;rsquo;s doing on Spring Retrosocket, a declarative Feign-like RSocket client. Then, Josh talks to Spring ecosystem luminary &lt;a href="http://twitter.com/maciejwalkowiak"&gt;Maciej Walkowiak (@maciejwalkowiak)&lt;/a&gt; about what he&amp;rsquo;s doing at the helm of Spring Cloud AWS.&lt;/p&gt;
+&lt;iframe title="RSocket everywhere and Spring luminary Maciej Walkowiak on Spring Cloud AWS" height="122" width="100%" style="border: none;" scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/id3f7-e70e2f?from=pb6admin&amp;download=1&amp;version=1&amp;auto=0&amp;share=1&amp;download=1&amp;rtl=0&amp;fonts=Helvetica&amp;skin=1&amp;pfauth=&amp;btn-skin=107"&gt;&lt;/iframe&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="http://github.com/spring-cloud/spring-cloud-aws"&gt;Spring Cloud AWS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Maciej&amp;rsquo;s recent video on getting started with &lt;a href="https://www.youtube.com/watch?v=Ts2a-YdN6vI"&gt;Spring Cloud AWS&lt;/a&gt; on his excellent YouTube channel Spring Academy&lt;/li&gt;
+  &lt;li&gt;Josh&amp;rsquo;s book &lt;a href="http://ReactiveSpring.io"&gt;&lt;em&gt;Reactive Spring&lt;/em&gt;&lt;/a&gt; has been updated with a new whopping 70+ page chapter on RSocket&lt;/li&gt;
+  &lt;li&gt;Josh&amp;rsquo;s &lt;a href="https://www.youtube.com/watch?v=ipVfRdl5SP0&amp;t=1s"&gt;&lt;em&gt;The RSocket Revolution&lt;/em&gt;&lt;/a&gt; talk&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://github.com/spring-projects-experimental"&gt;Spring Retrosocket&lt;/a&gt; - a declarative client for RSocket ? la Feign or Retrofit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>Config file processing in Spring Boot 2.4</title>
+    <link rel="alternate" href="https://spring.io/blog/2020/08/14/config-file-processing-in-spring-boot-2-4" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Phil Webb</name>
+    </author>
+    <id>tag:spring.io,2020-08-13:4166</id>
+    <updated>2020-08-14T01:12:00Z</updated>
+    <content type="html">&lt;div class="paragraph"&gt;
+&lt;p&gt;Spring Boot 2.4.0.M2 has &lt;a href="https://spring.io/admin/blog/4170-spring-boot-2-4-0-m2-is-now-available"&gt;just been released&lt;/a&gt;, and it brings with it some interesting changes to the way that &lt;code&gt;application.properties&lt;/code&gt; and &lt;code&gt;application.yml&lt;/code&gt; files are loaded.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;If your applications use the fairly typical setup of only using a single &lt;code&gt;application.properties&lt;/code&gt; or &lt;code&gt;application.yml&lt;/code&gt; file, then you&amp;#8217;ll probably not notice any difference.
+If, however, you have applications that use more complex setups (such as profile specific properties), you might want to read on to learn about what we&amp;#8217;ve changed and why.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="why-were-making-these-changes"&gt;&lt;a class="anchor" href="#why-were-making-these-changes"&gt;&lt;/a&gt;Why We&amp;#8217;re Making These Changes&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;With recent versions of Spring Boot we&amp;#8217;ve been working hard to improve our Kubernetes support.
+One thing that we wanted to add in Spring Boot 2.3, but couldn&amp;#8217;t, was support for volume mounted configuration.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Volume mounted configuration is a popular feature of Kubernetes where a &lt;code&gt;ConfigMap&lt;/code&gt; directive is used to surface configuration directly on the file system.
+You can either mount a complete YAML file that contains an amalgamation of multiple keys and values, or you can use a simpler directory tree format where the filename is the key and the contents of the file is the value.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;We wanted to offer support for both, and in a way that felt natural to use alongside our existing &lt;code&gt;application.properties&lt;/code&gt; and &lt;code&gt;application.yml&lt;/code&gt; support.
+To do that we needed to touch the dreaded &lt;code&gt;ConfigFileApplicationListener&lt;/code&gt; class.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="the-problem-with-configfileapplicationlistener"&gt;&lt;a class="anchor" href="#the-problem-with-configfileapplicationlistener"&gt;&lt;/a&gt;The Problem with ConfigFileApplicationListener&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;A few years ago some amusing &lt;a href="https://youtu.be/wvti-SKu2pk"&gt;clips from the video game Trap Adventure 2&lt;/a&gt; started doing the rounds.
+They&amp;#8217;re a pretty good analogy for what can happen in software.
+Sometimes you just find yourself with areas of code that are very hard to change.
+In Spring Boot, &lt;code&gt;ConfigFileApplicationListener&lt;/code&gt; ended up becoming one of these "trap adventures".&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;It&amp;#8217;s not that code is badly written, or is missing tests.
+It&amp;#8217;s just that as we added features to it, we ended up tying ourselves in knots.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The two main problems that we have with the code are to do with profile specific documents (mainly in YAML).
+Namely:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;You can enable additional profiles from a profile specific document.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;It&amp;#8217;s hard to know the order that documents will be added.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Take the following example:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre&gt;security.user.password: usera
+---
+spring.profiles: local
+security.user.password: userb
+runlocal: true
+---
+spring.profiles: !dev
+spring.profiles.include: local
+security.user.password: userc&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Here we have a &lt;a href="https://yaml.org/spec/1.2/spec.html#id2760395"&gt;multi-document YAML&lt;/a&gt; file (a single file that&amp;#8217;s comprised of three logical documents separated by &lt;code&gt;---&lt;/code&gt;).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;If you run with &lt;code&gt;--spring.profiles.active=prod&lt;/code&gt; what&amp;#8217;s the value of &lt;code&gt;security.user.password&lt;/code&gt;?
+Is the &lt;code&gt;runlocal&lt;/code&gt; property set?
+Are you sure?
+Is the middle document even included since the profile isn&amp;#8217;t activated at the time it&amp;#8217;s processed?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;We regularly had issues raised about this file processing logic, but whenever we tried to fix them something would break for someone else.
+We ultimately decided the only way forward was to rethink the entire thing.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;So in Spring Boot 2.4 we&amp;#8217;re planning to make two significant changes to the way the properties and YAML files are loaded:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="olist arabic"&gt;
+&lt;ol class="arabic"&gt;
+&lt;li&gt;
+&lt;p&gt;Documents will be loaded in the order that they&amp;#8217;re defined.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Profiles can no longer be activated from profile specific documents.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="document-order"&gt;&lt;a class="anchor" href="#document-order"&gt;&lt;/a&gt;Document Order&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Starting with Spring Boot 2.4, there will be a simple rule that can be applied when loading properties and YAML files.
+Properties declared lower in the file will override those higher up.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;This follows the same ordering rules that plain old &lt;code&gt;.properties&lt;/code&gt; files already use.
+Think of each line putting an entry in a &lt;code&gt;Map&lt;/code&gt;.
+Any existing entry is replaced when a new value with the same key is put into the &lt;code&gt;Map&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Following these rules, given a multi-document YAML file, the lower document will override values in the higher one:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre&gt;test: "value"
+---
+test: "overridden-value"&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="multi-document-properties-files"&gt;&lt;a class="anchor" href="#multi-document-properties-files"&gt;&lt;/a&gt;Multi-document Properties Files&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;With Spring Boot 2.4, we&amp;#8217;ve decided to bring YAML-like multi-document support to Java properties files.
+Multi-document properties files use a comment (&lt;code&gt;#&lt;/code&gt;) followed by the familiar three dash notation to split documents
+(&lt;em&gt;we chose to use a comment so that existing IDE tooling wouldn&amp;#8217;t break&lt;/em&gt;).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;For example, the properties equivalent of the YAML snippet above would be:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre&gt;test=value
+#---
+test=overridden-value&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="profile-specific-documents"&gt;&lt;a class="anchor" href="#profile-specific-documents"&gt;&lt;/a&gt;Profile Specific Documents&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The above example is a bit artificial since it wouldn&amp;#8217;t really make sense to always override a value.
+A more common setup would be to declare that the second document is only active with a specific profile.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;In Spring Boot 2.3, you&amp;#8217;d use the &lt;code&gt;spring.profiles&lt;/code&gt; key to do this.
+With Spring Boot 2.4, we&amp;#8217;ve decided to change the property to &lt;code&gt;spring.config.activate.on-profile&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;For example, if we only want to override &lt;code&gt;test&lt;/code&gt; when the &lt;code&gt;dev&lt;/code&gt; profile is active, we can use the following:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre&gt;test=value
+#---
+spring.config.activate.on-profile=dev
+test=overridden-value&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="profile-activation"&gt;&lt;a class="anchor" href="#profile-activation"&gt;&lt;/a&gt;Profile Activation&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;You can still use &lt;code&gt;spring.profiles.active&lt;/code&gt; properties to activate or include profiles from an &lt;code&gt;application.properties&lt;/code&gt; or &lt;code&gt;application.yaml&lt;/code&gt; file.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;For example, the following is perfectly valid:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre&gt;test=value
+spring.profiles.active=local
+#---
+spring.config.activate.on-profile=dev
+test=overridden value&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;One thing that you&amp;#8217;re no longer allowed to do is use that property in combination with &lt;code&gt;spring.config.activate.on-profile&lt;/code&gt;.
+For example, the following file would now throw an exception:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre&gt;test=value
+#---
+spring.config.activate.on-profile=dev
+spring.profiles.active=local # will fail
+test=overridden value&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;We hope that this new restriction will ultimately make your &lt;code&gt;application.properties&lt;/code&gt; and &lt;code&gt;application.yml&lt;/code&gt; files easier to reason about and understand.
+We also hope that it&amp;#8217;ll make Spring Boot itself easier to manage and maintain.
+We are, however, aware of a least one valid use-case where people want to expand a profile into multiple sub-profiles.
+In order to support that, we&amp;#8217;re adding a feature called "profile groups".&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="profile-groups"&gt;&lt;a class="anchor" href="#profile-groups"&gt;&lt;/a&gt;Profile Groups&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Profile groups are a new feature in Spring Boot 2.4 that allow you to expand a single profile into multiple sub-profiles.
+For example, suppose you have a complex set of &lt;code&gt;@Configuration&lt;/code&gt; classes that you conditionally enable using &lt;code&gt;@Profile&lt;/code&gt; annotations.
+You might have a database configuration with &lt;code&gt;@Profile("proddb")&lt;/code&gt;, a message configuration with &lt;code&gt;@Profile("prodmq")&lt;/code&gt; and so on.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Using multiple discrete profiles might make your code easier to reason about, but it&amp;#8217;s not ideal for deployment.
+You don&amp;#8217;t want to force users to remember that they must always activate &lt;code&gt;proddb&lt;/code&gt;, &lt;code&gt;prodmq&lt;/code&gt;, &lt;code&gt;prodmetrics&lt;/code&gt; etc at the same time.
+Instead, you just want them to be able to activate a single &lt;code&gt;prod&lt;/code&gt; profile.
+Groups allow you to do just that.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;To define a group, you can use the &lt;code&gt;spring.profiles.group&lt;/code&gt; property in your &lt;code&gt;application.properties&lt;/code&gt; or &lt;code&gt;application.yml&lt;/code&gt; file.
+For example:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre&gt;spring.profiles.group.prod=proddb,prodmq,prodmetrics&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="importing-additional-configuration"&gt;&lt;a class="anchor" href="#importing-additional-configuration"&gt;&lt;/a&gt;Importing Additional Configuration&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Now that we&amp;#8217;ve fixed that basic issues with config file processing, we&amp;#8217;re finally able to think about new features that we want to offer.
+The main one that we&amp;#8217;re delivering with Spring Boot 2.4 is support for importing additional configuration.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;With earlier versions of Spring Boot, it was pretty hard to import additional properties or yaml files beyond &lt;code&gt;application.properties&lt;/code&gt; and &lt;code&gt;application.yml&lt;/code&gt;.
+You could use the &lt;code&gt;spring.config.additional-location&lt;/code&gt; property, but you needed to set it pretty early and it was quite limited with the types of files that it could deal with.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;With the latest milestone, you can use the new &lt;code&gt;spring.config.import&lt;/code&gt; property directly in your &lt;code&gt;application.properties&lt;/code&gt; or &lt;code&gt;application.yml&lt;/code&gt; files.
+For example, you might want to import a "git ignored" &lt;code&gt;developer.properties&lt;/code&gt; file so that any developer in your team can quickly change properties just for them:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre&gt;application.name=myapp
+spring.config.import=developer.properties&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;You can even combine &lt;code&gt;spring.config.import&lt;/code&gt; declarations with &lt;code&gt;spring.config.activate.on-profile&lt;/code&gt; properties.
+For example, here we load &lt;code&gt;prod.properties&lt;/code&gt; only if the &lt;code&gt;prod&lt;/code&gt; profile is active:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre&gt;spring.config.activate.on-profile=prod
+spring.config.import=prod.properties&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Imports can be considered as additional documents inserted just below the document that declares them.
+They follow the same top-down ordering as regular multi-document files:
+An import will only be imported once, no matter how many times it is declared.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="volume-mounted-configuration-trees"&gt;&lt;a class="anchor" href="#volume-mounted-configuration-trees"&gt;&lt;/a&gt;Volume Mounted Configuration Trees&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Import definitions use URL-like syntax as their value.
+If your location doesn&amp;#8217;t have a prefix, it&amp;#8217;s considered to be a regular file or folder.
+If, however, you use the &lt;code&gt;configtree:&lt;/code&gt; prefix, you&amp;#8217;re telling Spring Boot that you expect a Kubernetes style volume mounted configuration tree at the location.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;For example, you can declare the following in your &lt;code&gt;application.properties&lt;/code&gt;:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre&gt;spring.config.import=configtree:/etc/config&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;If you have the following mounted content:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre&gt;etc/
+ +- config/
+     +- my/
+     |  +- application
+     +- test&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;You end up with &lt;code&gt;my.application&lt;/code&gt; and &lt;code&gt;test&lt;/code&gt; properties in your Spring &lt;code&gt;Environment&lt;/code&gt;.
+The value for &lt;code&gt;my.application&lt;/code&gt; will be the contents of &lt;code&gt;/etc/config/my/application&lt;/code&gt;, and the value of &lt;code&gt;test&lt;/code&gt; will be the contents of &lt;code&gt;/etc/config/test&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="cloud-platform-activation"&gt;&lt;a class="anchor" href="#cloud-platform-activation"&gt;&lt;/a&gt;Cloud Platform Activation&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;If you only want volume mounted config trees (or any properties for that matter) to be active on a specific cloud platform, you can use the &lt;code&gt;spring.config.activate.on-cloud-platform&lt;/code&gt; property.
+This works in a similar way to the &lt;code&gt;spring.config.activate.on-profile&lt;/code&gt; property, but uses &lt;code&gt;CloudPlatform&lt;/code&gt; values, rather than profile names.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;If we want to only enable our configtree example above when we&amp;#8217;re deployed to Kubernetes, we can do the following:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre&gt;spring.config.activate.on-cloud-platform=kubernetes
+spring.config.import=configtree:/etc/config&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="supporting-additional-locations"&gt;&lt;a class="anchor" href="#supporting-additional-locations"&gt;&lt;/a&gt;Supporting Additional Locations&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The location strings specified in &lt;code&gt;spring.config.import&lt;/code&gt; properties are completely pluggable and may be extended by writing a few custom classes.
+We expect that third-party libraries may start to offer support for custom locations in the future.
+For example, you could imagine third-party jars to support locations such as &lt;code&gt;archaius://&amp;#8230;&amp;#8203;&lt;/code&gt;, &lt;code&gt;vault://&amp;#8230;&amp;#8203;&lt;/code&gt; or &lt;code&gt;zookeeper://&amp;#8230;&amp;#8203;&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;If you&amp;#8217;re interested in adding additional location support, look at the javadoc for &lt;code&gt;ConfigDataLocationResolver&lt;/code&gt; and &lt;code&gt;ConfigDataLoader&lt;/code&gt; in the &lt;code&gt;org.springframework.boot.context.config&lt;/code&gt; package.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="using-legacy-processing"&gt;&lt;a class="anchor" href="#using-legacy-processing"&gt;&lt;/a&gt;Using Legacy Processing&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;If you&amp;#8217;re upgrading an existing Spring Boot application, and you don&amp;#8217;t feel comfortable using all these new features, you can switch back to the older processor.
+To do that, you can set &lt;code&gt;spring.config.use-legacy-processing&lt;/code&gt; to &lt;code&gt;true&lt;/code&gt; to your &lt;code&gt;application.properties&lt;/code&gt; or &lt;code&gt;application.yml&lt;/code&gt; file.
+This should give you application config processing that&amp;#8217;s identical to a Spring Boot 2.3 application.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;If you do find you need to switch to legacy processing because we&amp;#8217;ve missed a specific use-case, please &lt;a href="https://github.com/spring-projects/spring-boot/issues"&gt;raise an issue on GitHub&lt;/a&gt; and we&amp;#8217;ll try to address it.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="summary"&gt;&lt;a class="anchor" href="#summary"&gt;&lt;/a&gt;Summary&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;We hope the new config data processing classes are useful, and they don&amp;#8217;t cause too much upgrade pain.
+If you want to read more about them, you can checkout the updated &lt;a href="https://docs.spring.io/spring-boot/docs/2.4.0-SNAPSHOT/reference/htmlsingle/#boot-features-external-config-files"&gt;reference documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+</feed>

@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+C:\Users\harry\OneDrive\바탕 화면\SpringData\쏘스코드\카카오API 로그인아웃 소스코드\LoginForKakao\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1061738750.index
+\KakaoLogin\src\main\java
+C:\Users\harry\OneDrive\바탕 화면\SpringData\쏘스코드\카카오 API 간편로그인 쏘스코드\LoginForKakao\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1061738750.index
+\KakaoLogin\src\main\java
+C:\Users\harry\OneDrive\바탕 화면\SpringData\쏘스코드\드래그앤드롭 쏘스코드\DragAndDrop\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3510886292.index
+\DAD\src\main\java

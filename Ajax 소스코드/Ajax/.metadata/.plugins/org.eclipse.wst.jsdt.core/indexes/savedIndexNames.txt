@@ -1,0 +1,2 @@
+INDEX VERSION 1.4+C:\Users\harry\Desktop\SpringData\½î½ºÄÚµå\Ajax ½î½ºÄÚµå\Ajax\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3743656111.index

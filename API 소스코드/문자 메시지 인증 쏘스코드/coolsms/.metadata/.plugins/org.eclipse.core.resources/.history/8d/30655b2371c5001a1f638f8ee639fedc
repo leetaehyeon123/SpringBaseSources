@@ -1,0 +1,33 @@
+package com.th.sms;
+
+
+import java.util.Locale;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+/**
+ * Handles requests for the application home page.
+ */
+@Controller
+public class HomeController {
+
+	@RequestMapping(value = "/", method = RequestMethod.GET)
+	public String home(Locale locale, Model model) {
+
+		return "page1";
+	}
+	@RequestMapping(value = "/page2", method = RequestMethod.GET)
+	public String page2(Locale locale, Model model) {
+
+		return "page2";
+	}
+	@RequestMapping(value = "/page3", method = RequestMethod.GET)
+	public String page3(Locale locale, Model model) {
+
+		return "page3";
+	}
+	
+}

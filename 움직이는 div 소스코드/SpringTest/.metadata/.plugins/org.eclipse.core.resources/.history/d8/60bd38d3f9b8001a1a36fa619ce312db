@@ -1,0 +1,75 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page session="false" %>
+<!doctype html>
+<html onmouseup='mydragg.stopMoving();'>
+    <head >
+        <style>
+            #container {
+                position:absolute;
+                background-color: blue;
+                }
+            #elem{
+                position: absolute;
+                background-color: green;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -o-user-select: none;
+                -ms-user-select: none;
+                -khtml-user-select: none;     
+                user-select: none;
+            }
+        </style>
+        <script>
+            var mydragg = function(){
+                return {
+                    move : function(divid,xpos,ypos){
+                        divid.style.left = xpos + 'px';
+                        divid.style.top = ypos + 'px';
+                    },
+                    startMoving : function(divid,container,evt){
+                        evt = evt || window.event;
+                        var posX = evt.clientX,
+                            posY = evt.clientY,
+                        divTop = divid.style.top,
+                        divLeft = divid.style.left,
+                        eWi = parseInt(divid.style.width),
+                        eHe = parseInt(divid.style.height);
+               
+                        divid.style.cursor='move';
+                        divTop = divTop.replace('px','');
+                        divLeft = divLeft.replace('px','');
+                        var diffX = posX - divLeft,
+                            diffY = posY - divTop;
+                        document.onmousemove = function(evt){
+                            evt = evt || window.event;
+                            var posX = evt.clientX,
+                                posY = evt.clientY,
+                                aX = posX - diffX,
+                                aY = posY - diffY;
+                          
+                            mydragg.move(divid,aX,aY);
+                        }
+                    },
+                    stopMoving : function(){
+
+                        document.getElementById('elem').style.cursor='default';
+                        document.onmousemove = function(){}
+                    },
+                }
+            }();
+
+        </script>
+    </head>
+    <body>
+            <div id="elem" onmousedown='mydragg.startMoving(this,"container",event);'  style="width: 200px;height: 100px;">
+                <div style='width:100%;height:100%;padding:10px'>
+                <select id=test>
+                    <option value=1>first
+                    <option value=2>second
+                </select>
+                <INPUT TYPE=text value="123">
+                </div>
+            </div>
+
+    </body>
+</html>

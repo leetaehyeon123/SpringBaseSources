@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\harry\OneDrive\바탕 화면\SpringData\쏘스코드\회원가입 이메일 인증 쏘스코드\EmailLog\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+705357781.index
+1850495865.index
+3146541104.index
+955992854.index
+153938180.index
+435717147.index

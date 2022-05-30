@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\Users\harry\OneDrive\바탕 화면\SpringData\쏘스코드\웹소켓 쏘스코드\TestWebSocket\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+4117117904.index
+798084340.index
+1222033515.index
+354348389.index
+2516588058.index
+1895083333.index
+3831863975.index
